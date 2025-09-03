@@ -1,0 +1,45 @@
+{{/*
+    layouts/partials/components/scroll-to-top.html
+    Renders a floating "Return to Top" button.
+    It becomes visible after scrolling down and smoothly scrolls to the top.
+*/}}
+<a id="scrollToTopBtn" href="#"
+   class="fixed bottom-6 right-6 p-3 bg-primary text-white rounded-full shadow-lg opacity-0 transition-opacity duration-300 ease-in-out z-50
+          hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-light focus:ring-opacity-75"
+   aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+    // JavaScript for scroll-to-top functionality
+    document.addEventListener('DOMContentLoaded', () => {
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        // Show/hide button based on scroll position
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 300) { // Show button after scrolling 300px
+                scrollToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                scrollToTopBtn.classList.add('opacity-100');
+            } else {
+                scrollToTopBtn.classList.remove('opacity-100');
+                scrollToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+            }
+        };
+
+        // Smooth scroll to top when button is clicked
+        const scrollToTop = (event) => {
+            event.preventDefault(); // Prevent default anchor link behavior
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll animation
+            });
+        };
+
+        // Event Listeners
+        window.addEventListener('scroll', toggleVisibility);
+        scrollToTopBtn.addEventListener('click', scrollToTop);
+
+        // Initial check in case the page loads already scrolled down
+        toggleVisibility();
+    });
+</script>

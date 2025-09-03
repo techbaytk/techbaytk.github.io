@@ -1,0 +1,159 @@
+
+:root {
+  /* custom */
+  --font-sans: ui-sans-serif, system-ui,  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-primary: Tajawal;
+  --font-secondary: Amiri;
+  --text-h6: 1.2rem;
+  --text-h6-sm: 1.08rem;
+  --text-h5: 1.44rem;
+  --text-h5-sm: 1.296rem;
+  --text-h4: 1.728rem;
+  --text-h4-sm: 1.5552rem;
+  --text-h3: 2.0736rem;
+  --text-h3-sm: 1.86624rem;
+  --text-h2: 2.48832rem;
+  --text-h2-sm: 2.239488rem;
+  --text-h1: 2.9859839999999997rem;
+  --text-h1-sm: 2.6873856rem;
+  --text-base: 19px;
+  --text-base-sm: 12.8px;
+  --color-primary: #121212;
+  --color-body: #fff;
+  --color-border: #eaeaea;
+  --color-light: #f6f6f6;
+  --color-dark: #040404;
+  --color-text: #444444;
+  --color-text-dark: #000000;
+  --color-text-light: #ffffff;
+  --swiper-navigation-sides-offset:10;
+}
+.content {
+  :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: #040404;
+    font-family:Consolas;
+  font-weight: bolder;}}
+.date-bookmark {
+  background-color: #fe4d68; /* Dark background for the bookmark */
+  /* Define the bookmark shape using clip-path */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+  /* Adjust padding, font sizes, etc. as needed to fit content */
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+}
+
+/* Optional: Adjust for dark mode if your theme has specific dark mode background for this element */
+.dark .date-bookmark {
+  background-color: #f82f6f; /* Slightly lighter dark mode background */
+  color: white;
+}
+
+.bg-black {
+  background-color: #022e42c0;
+}
+
+.section {
+  padding-block: calc(var(--spacing)* 8);
+}
+
+.pr-6 {
+  padding-right: calc(var(--spacing)* 6);
+}
+
+.gallery-slider {
+  margin-left: calc(var(--spacing) * 80) !important;
+}
+
+.gallery-slider:hover .swiper-button-next{
+  right: auto;
+}
+
+.text-text-light {
+  color: var(--color-darkmode-text-light);
+}
+
+ml-3{margin-right: calc(var(--spacing) * 3 );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* lang sw */
+.lang-switcher-container {
+        position: relative;
+        z-index: 50;
+    }
+    .lang-switcher {
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        right:3px;
+    }
+    .lang-switcher-summary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        background-color: #3b83f6; /* Tailwind's blue-500 */
+        color: white;
+        border-radius: 9999px; /* full rounded */
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .lang-switcher-summary:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    .lang-switcher-summary::-webkit-details-marker {
+        display: none;
+    }
+    .lang-switcher-summary .icon-globe {
+        display: block;
+        transition: opacity 0.3s ease;
+    }
+    .lang-switcher-summary .lang-initials {
+        font-weight: bold;
+        font-size: 1rem;
+        position: absolute; /* Position initials over the globe */
+        transition: opacity 0.3s ease;
+        opacity: 0; /* Initially hidden */
+    }
+    .lang-switcher-summary:hover .icon-globe {
+        opacity: 0;
+    }
+    .lang-switcher-summary:hover .lang-initials {
+        opacity: 1;
+    }
+    .lang-dropdown {
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        z-index: 40;
+    }
+    .lang-option {
+        padding: 0.2rem;
+    }
+    .lang-link {
+        display: block;
+        padding: 0.25rem;
+        text-decoration: none;
+        color: black;
+        border-radius: 0.25rem;
+        transition: background-color 0.2s ease;
+        white-space: nowrap;
+    }
+    .lang-link:hover {
+        background-color: #f0f0f0;
+    }
+    .lang-switcher[open] .lang-dropdown {
+      display: block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      margin: 0.5rem ;
+  }

@@ -1,0 +1,63 @@
+############# Arabic navigation ##############
+
+# main menu
+[[main]]
+name = "الرئيسية"
+url = "/"
+weight = 1
+
+[[main]]
+name = "حول الموقع"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "المدونة"
+url = "/blog"
+weight = 3
+
+[[main]]
+weight = 4
+name = "الصفحات"
+
+[[main]]
+parent = "الصفحات"
+name = "العناصر"
+url = "/elements"
+
+[[main]]
+parent = "الصفحات"
+name = "اتصل بنا"
+url = "/contact"
+
+[[main]]
+parent = "الصفحات"
+name = "المدونون"
+url = "/authors"
+
+[[main]]
+parent = "الصفحات"
+name = "التصنيفات"
+url = "/categories"
+
+[[main]]
+parent = "الصفحات"
+name = "404 Page"
+url = "/404"
+
+
+# footer menu
+[[footer]]
+name = "حول"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "العناصر"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "اتفاقية الخصوصية"
+url = "/privacy-policy"
+weight = 3

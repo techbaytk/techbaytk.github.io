@@ -1,0 +1,20 @@
+{{/*
+    layouts/shortcodes/store_buttons.html
+    This shortcode renders a set of App Store and Google Play buttons.
+    Usage:
+    {{< store_buttons app_store_link="https://apple.com/app" google_play_link="https://play.google.com/store" class="my-custom-class" >}}
+    Parameters:
+    - app_store_link (string): URL for the App Store button.
+    - google_play_link (string): URL for the Google Play button.
+    - class (string): Optional. Additional TailwindCSS classes for the wrapper div.
+*/}}
+
+{{- $appStoreLink := .Get "app_store_link" | default "" -}}
+{{- $googlePlayLink := .Get "google_play_link" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+
+{{ partial "components/store-buttons.html" (dict
+    "appStoreLink" $appStoreLink
+    "googlePlayLink" $googlePlayLink
+    "class" $class
+) }}

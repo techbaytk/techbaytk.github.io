@@ -1,0 +1,39 @@
+{{/*
+layouts/partials/sections/latest-posts.html
+Displays a list of the latest blog posts.
+Parameters:
+- num_posts (int): Number of posts to display. Default is 3.
+- section (string): The content section to pull posts from (e.g., "blog"). Default is "posts".
+- title (string): Title for this section. Default is "Latest Posts".
+*/}}
+{{- $numPosts := .num_posts | default 3 -}}
+{{- $section := .section | default "blog" -}}
+{{- $sectionTitle := .title | default "Latest Posts" -}}
+{{- $home := .homepage | default false -}}
+
+<!-- DEBUG: Partial included. Section param: "{{ $section }}", Num posts to show: {{ $numPosts }} -->
+{{- $posts := where site.RegularPages "Section" $section -}}
+<!-- DEBUG: Posts found before sorting/limiting: {{ len $posts }} -->
+{{- $posts = $posts.ByDate.Reverse -}}
+{{- $posts = first $numPosts $posts -}}
+<!-- DEBUG: Posts found after sorting/limiting: {{ len $posts }} -->
+{{- if gt (len $posts) 0 -}}
+<section class="section">
+    <div class="container mx-auto px-4">
+        <h2 class="h3 text-center mb-8">{{ $sectionTitle }}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{ range $posts }}
+            {{/* Call your existing blog card partial for each post */}}
+            {{ partial "components/blog-card.html" . }}
+            {{ end }}
+        </div>
+        {{ if .home }}
+        <div class="text-center mt-12">
+            <a href="{{ `blog/#all-posts` | relLangURL  }}" class="btn btn-outline-primary">View All Posts</a>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{- else -}}
+<!-- DEBUG: No posts found for section "{{ $section }}" to display. -->
+{{- end -}}

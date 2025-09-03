@@ -1,0 +1,59 @@
+{{/*
+    layouts/partials/all-posts-filtered.html
+    هذا الجزء يعرض قائمة بجميع المقالات، باستثناء الأحدث منها،
+    ويتولى Pagination الخاص به.
+    تم إضافة شرط للتأكد من وجود مقالات بعد التصفية.
+  */}}
+  {{ $latestCount := 3 }} 
+  {{ $allPosts := (where .Site.RegularPages "Type" "post").ByDate.Reverse }}
+  {{ $latestPosts := first $latestCount $allPosts }}
+  
+  {{ $filteredPosts := newScratch }}
+  {{ range $allPosts }}
+    {{ $isLatest := false }}
+    {{ range $latestPosts }}
+      {{ if eq .Permalink $.Permalink }}
+        {{ $isLatest = true }}
+      {{ end }}
+    {{ end }}
+    {{ if not $isLatest }}
+      {{ $filteredPosts.Add . }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $filteredPostsCollection := $filteredPosts.Values }}
+  
+  {{/*
+    نحن نتحقق الآن مما إذا كان هناك مقالات متبقية قبل عرض
+    عنوان القسم ومحتواه بالكامل.
+  */}}
+  {{ if gt (len $filteredPostsCollection) 0 }}
+    <section id="all-posts" class="section" dir="rtl">
+      <div class="container">
+        <h2 class="h3 text-center mb-8">جميع المقالات</h2>
+        <div class="row gx-5">
+          <!-- blog posts -->
+          <div class="lg:col-8" >
+            <div class="row">
+              {{ $paginator:= $.Paginate $filteredPostsCollection }}
+              
+              {{ range $paginator.Pages }}
+                <div class="md:col-6 mb-14">
+                  {{ partial "components/blog-card" . }}
+                </div>
+              {{ end }}
+            </div>
+            
+            {{ partial "components/pagination.html" $paginator }}
+          </div>
+          
+          <!-- sidebar -->
+          <div class="lg:col-4">
+            {{ $widget:= site.Params.widgets.sidebar }}
+            {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  

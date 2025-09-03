@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Foss on بيت التقنية</title>
+    <link>//localhost:1313/ar/tags/foss/</link>
+    <description>Recent content in Foss on بيت التقنية</description>
+    <generator>Hugo</generator>
+    <language>ar-sa</language>
+    <lastBuildDate>Sat, 24 May 2025 16:10:00 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/ar/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>تسعة تطبيقات أندرويد مفتوحة المصدر يجب أن تستخدمها</title>
+      <link>//localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</link>
+      <pubDate>Sat, 24 May 2025 16:10:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</guid>
+      <description>&lt;p&gt;يأتي نظام أندرويد، المبني على مبادئ مفتوحة المصدر، بنظام مزدهر من التطبيقات مفتوحة المصدر التي تعطي الأولوية &lt;strong&gt;للشفافية والخصوصية وحرية البيانات&lt;/strong&gt;. هذه التطبيقات، &lt;strong&gt;المجانية غالبًا والخالية من الإعلانات&lt;/strong&gt; ، يمكنها التنافس بسهولة مع نظيراتها التجارية. لقد قمنا بالفعل بتغطية بعض أفضل تطبيقات أندرويد في وقت سابق ولكننا اليوم سنتجه لللتطبيقات المفتوحة المصدر، وهذا بالكاد البداية فقط لذا، إليك المزيد من تطبيقات أندرويد الممتازة التي تدعم الشفافية وتقدم فائدة لا تصدق.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

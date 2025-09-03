@@ -1,0 +1,1868 @@
+<!doctype html>
+<html
+  itemscope
+  class=""
+  lang="ar-sa"
+  itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8" />
+
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+<meta name="theme-name" content="hugoplate" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/favicon_hu_38982b88fc8262db.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu_38982b88fc8262db.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu_ab2dd623922c4e1a.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu_38982b88fc8262db.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu_5d895c676d6bf39d.png">
+
+
+
+
+
+
+
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
+  name="msapplication-TileColor"
+  content="#ddd" />
+<meta
+  name="theme-color"
+  content="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <base href="//localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/" />
+
+
+
+
+
+
+
+  
+
+
+<title>ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)</title>
+
+
+
+
+
+
+
+
+
+
+
+  
+    <link rel="alternate" hreflang="en" href="//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/" />
+  
+    <link rel="alternate" hreflang="ar" href="//localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/" />
+  
+  <link rel="alternate" hreflang="x-default" href="//localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/" />
+
+
+
+
+
+  <meta
+    name="keywords"
+    content="Boilerplate, Hugo" />
+
+
+
+
+<meta
+  name="description"
+  content="this is meta description" />
+
+
+
+  <meta name="author" content="zeon.studio" />
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+      
+        <meta property="og:image" content="//localhost:1313/images/blog/pi2.png" />
+        <meta name="twitter:image" content="//localhost:1313/images/blog/pi2.png" />
+        <meta
+          name="twitter:card"
+          content="summary_large_image" />
+      
+      
+      <meta property="og:image:width" content="762" />
+      <meta property="og:image:height" content="482" />
+    
+
+
+    
+    <meta
+      property="og:image:type"
+      content="image/.png" />
+  
+
+
+  
+
+
+
+
+
+<meta property="og:title" content="ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)" />
+<meta property="og:description" content="this is meta description" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="//localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/" />
+
+
+<meta name="twitter:title" content="ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)" />
+<meta name="twitter:description" content="this is meta description" />
+
+
+  <meta name="twitter:site" content="@zeon_studio" />
+
+
+  <meta name="twitter:creator" content="@zeon.studio" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  let indexURL = "//localhost:1313/ar/searchindex.json";
+  let includeSectionsInSearch = ["blog"];
+  let search_no_results = "لا يوجد نتائج بحث عن";
+  let search_initial_message = "اكتب شيئاً للبحث..";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script>
+  (function () {
+    const googleFont = document.createElement("link");
+    googleFont.href = "https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;0,900&family=Tajawal:wght@700;900&display=swap";
+    googleFont.type = "text/css";
+    googleFont.rel = "stylesheet";
+    document.head.appendChild(googleFont);
+  })();
+</script>
+
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link
+  href="/css/style.css"
+  integrity=""
+  rel="stylesheet" />
+
+
+<link
+  defer
+  async
+  rel="stylesheet"
+  href="/css/style-lazy.css"
+  integrity=""
+  media="print"
+  onload="this.media='all'; this.onload=null;" />
+
+
+  </head>
+
+  <body>
+    
+    
+      
+
+
+
+
+
+      
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+    <header
+  class="header sticky top-0 z-30">
+  <nav class="navbar container">
+    
+    <div class="order-0">
+      
+      <a class="navbar-brand block" href="/ar/">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+      
+      
+
+
+      
+      
+        
+        
+        
+        
+
+        
+        
+        
+      
+      
+    
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img img-light"
+      width="160"
+      height="32"
+      src="/images/logo_hu_c4e3df2a21189bc4.webp"
+      alt="TechBaytk"
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_7ffb2225aa47a521.png';" />
+
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img img-dark"
+      width="160"
+      height="32"
+      src="/images/logo-darkmode_hu_e92f8fc231c63a3f.webp"
+      alt="TechBaytk"
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_b2f5d8b932e4839e.png';" />
+  
+  
+
+
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/ar/"
+              >الرئيسية</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/ar/about"
+              >حول الموقع</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/ar/blog"
+              >المدونة</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link 
+                
+                
+                
+              
+                
+                
+                
+              
+                
+                
+                
+              
+                
+                
+                
+              
+                
+                
+                
+               inline-flex items-center">
+              الصفحات
+              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+            <ul
+              class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/ar/404">
+                    404 Page
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/ar/contact">
+                    اتصل بنا
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/ar/categories">
+                    التصنيفات
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/ar/elements">
+                    العناصر
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/ar/authors">
+                    المدونون
+                  </a>
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+      
+        <li class="mt-4 inline-block lg:hidden">
+          <a
+            class="btn btn-outline-primary btn-sm"
+            href="/ar/contact">
+            اترك لنا كلمة
+          </a>
+        </li>
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+      
+        
+          <button
+            aria-label="search"
+            class="border-border text-text-dark hover:text-primary
+            dark:border-darkmode-border mr-5 inline-block border-r pr-5
+            text-xl dark:text-white cursor-pointer dark:hover:text-darkmode-primary
+            "
+            data-target="search-modal">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        
+      
+
+      <div class="lang-switcher-container">
+    <details class="lang-switcher">
+        <summary class="lang-switcher-summary">
+            <span class="icon-globe">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-globe">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                    <path d="M2 12h20" />
+                </svg>
+            </span>
+            <span class="lang-initials">AR</span>
+        </summary>
+        <ul class="lang-dropdown">
+            
+            
+            <li class="lang-option">
+                <a href="//localhost:1313/en/" class="lang-link">En (EN)</a>
+            </li>
+            
+            
+            
+            
+        </ul>
+    </details>
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const langSwitcher = document.querySelector('.lang-switcher');
+        
+        if (langSwitcher) {
+            
+            langSwitcher.querySelector('summary').addEventListener('click', function(e) {
+                e.preventDefault();
+                langSwitcher.toggleAttribute('open');
+            });
+    
+            
+            langSwitcher.querySelector('.lang-dropdown').addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+    
+            
+            document.addEventListener('click', function(e) {
+                if (!langSwitcher.contains(e.target)) {
+                    langSwitcher.removeAttribute('open');
+                }
+            });
+        }
+    });
+    </script>
+      
+
+
+  <div class="theme-switcher mr-5 invisible">
+    <input id="theme-switcher" data-theme-switcher type="checkbox" />
+    <label for="theme-switcher">
+      <span class="sr-only">theme switcher</span>
+      <span>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
+          viewBox="0 0 56 56"
+          fill="#fff"
+          height="16"
+          width="16">
+          <path
+            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
+        </svg>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
+          viewBox="0 0 24 24"
+          fill="none"
+          height="16"
+          width="16">
+          <path
+            fill="#000"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
+        </svg>
+      </span>
+    </label>
+  </div>
+
+  
+  <script>
+    var darkMode = localStorage.getItem("theme") === "dark";
+
+    if (localStorage.getItem("theme") === null) {
+      darkMode = false;
+
+      
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        darkMode = true;
+      }
+      
+    }
+
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+      var themeSwitcherContainer = document.querySelector('.theme-switcher');
+
+      [].forEach.call(themeSwitch, function (ts) {
+        ts.checked = darkMode;
+        ts.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+          localStorage.setItem(
+            "theme",
+            document.documentElement.classList.contains("dark") ? "dark" : "light"
+          );
+        });
+      });
+
+      
+      themeSwitcherContainer.classList.remove("invisible");
+    });
+  </script>
+
+
+
+      
+      
+        <a
+          href="/ar/contact"
+          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+          اترك لنا كلمة
+        </a>
+      
+    </div>
+  </nav>
+</header>
+
+    
+
+
+
+
+  
+    <div
+      class="search-modal "
+      aria-hidden="true"
+      style="--color-primary: #121212">
+      <div data-target="close-search-modal" class="search-modal-overlay"></div>
+      <div
+        class="search-wrapper"
+        data-image="true"
+        data-description="true"
+        data-tags="true"
+        data-categories="true">
+        <div class="search-wrapper-header">
+          <label for="search-modal-input" style="margin-top:-1px">
+            <span class="sr-only">search icon</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-icon"
+              data-type="search">
+              <path
+                fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-reset"
+              data-type="reset">
+              <path
+                fill="currentColor"
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
+            </svg>
+          </label>
+          <input
+            id="search-modal-input"
+            type="text"
+            data-search-input
+            autocomplete="off"
+            aria-label="Search"
+            placeholder="البحث..." />
+        </div>
+        <div class="search-wrapper-body">
+          <div class="search-result" data-search-result></div>
+          <span class="search-result-empty">
+            اكتب شيئاً للبحث..
+          </span>
+        </div>
+        <div class="search-wrapper-footer">
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+              </svg>
+            </kbd>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                style="margin-top:1px;"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+              </svg>
+            </kbd>
+            تصفح
+          </span>
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                style="display:inline-block;"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
+              </svg>
+            </kbd>
+            اختيار
+          </span>
+          <span class="search-result-info"></span>
+          <span data-target="close-search-modal">
+            <kbd>ESC</kbd> اغلاق
+          </span>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <main>
+      
+  <section class="section pt-7" dir="rtl">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          
+          <h1 class="h2 mb-4">
+            ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)
+          </h1>
+          <ul class="mb-4">
+            <li class="mr-4 inline-block">
+              <a
+                href="/ar/authors/kenan-melhem/">
+                <i class="fa-regular fa-circle-user mr-2"></i
+                >Kenan Melhem
+              </a>
+            </li>
+            
+            
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-folder mr-2"></i>
+                
+                  <a
+                    href="/ar/categories/knowledge/"
+                    class=""
+                    >Knowledge
+                  </a>
+                
+              </li>
+            
+            <li class="mr-4 inline-block">
+              <i class="fa-regular fa-clock mr-2"></i>
+              23 يونيو 2025
+            </li>
+          </ul>
+          <div class="content mb-10">
+            
+
+ 
+  
+
+<details open class="table-of-content blog">
+  <summary>
+    
+      فهرس المحتوى
+    
+  </summary>
+  <nav id="TableOfContents"></nav>
+</details>
+
+            <p>في عالم اليوم الرقمي، أصبح الوعي بالخصوصية والأمان على الإنترنت أمراً ضرورياً أكثر من أي وقت مضى. لكن مع تعدد الأدوات المتاحة، قد يكون من الصعب معرفة أيها الأنسب لاحتياجاتك. فليست كل أدوات الخصوصية متشابهة أو تؤدي نفس الوظيفة.</p>
+<p>في هذا المقال، سنغوص في عالم الخوادم الوكيلة (Proxy Servers)، ونكشف عن ماهيتها، وكيف تعمل، وما هي حدودها، ومتى يكون استخدامها فكرة جيدة.</p>
+<h1 id="ماذا-يفعل-الخادم-الوكيل">ماذا يفعل الخادم الوكيل؟</h1>
+<p>في الظروف العادية، تتدفق حركة الإنترنت بين جهازك والخدمة التي تتصل بها عبر سلسلة من الخوادم. هذه الخوادم هي الأجهزة المادية التي تشكل شبكة الإنترنت.</p>
+<p>تعتبر طريقة انتقال البيانات بينك وبين الخادم شفافة إلى حد كبير؛ حيث يمكن لكل منكما رؤية الآخر، ويمكن تتبع المسار الذي تسلكه البيانات عبر الشبكة. إذا أردت رؤية ذلك بنفسك، يمكنك استخدام الأمر <strong><code>tracert</code></strong> على نظام ويندوز، أو <strong><code>traceroute</code></strong> على لينكس وماك أو إس.</p>
+<p><div class=" "><img src="/images/blog/trace.png"
+                 alt="terminal with trace command"
+                 
+                 
+                 
+                 style="max-width: 100%; height: auto;"
+            /></div>
+عندما تتصل بخادم وكيل وتوجه حركة الإنترنت من خلاله، فإن أي جهة تستقبل بياناتك ستراها وكأنها قادمة من الخادم الوكيل وليس من جهاز الكمبيوتر الفعلي الخاص بك. على سبيل المثال، تخيل أنك في الرياض وتتصل بخادم وكيل في لندن لتصفح الإنترنت. أي موقع ويب ستزوره سيعتقد أنك موجود في لندن.</p>
+<p>يمكنك إعداد الخادم الوكيل لتوجيه كل حركة المرور الخاصة بك من خلاله، أو يمكنك توجيه تطبيقات معينة بشكل انتقائي.</p>
+<h1 id="ما-هي-الاستخدامات-الأخرى-للخوادم-الوكيلة">ما هي الاستخدامات الأخرى للخوادم الوكيلة؟</h1>
+<p>بعيداً عن مجرد إخفاء عنوان IP الخاص بك، تجد الخوادم الوكيلة تطبيقات واسعة في المدارس والشركات، نظراً لموقعها المناسب داخل الشبكة.</p>
+<ul>
+<li><strong>الجدران النارية (Firewalls):</strong> غالباً ما تستضيف الخوادم الوكيلة جدراناً نارية للتحكم في الوصول إلى المحتوى المحظور على الشبكة أو لتقييد كمية حركة المرور من مصدر معين. هذا أمر شائع في البيئات التعليمية وبعض أماكن العمل.</li>
+<li><strong>التخزين المؤقت (Caching):</strong> يمكن للخوادم الوكيلة تخزين الموارد التي تصل إليها بشكل متكرر (مثل صفحات الويب) مؤقتاً لتوفير الوقت وعرض النطاق الترددي، حيث لن تحتاج إلى جلبها من الإنترنت في كل مرة.
+<div class=" "><img src="/images/blog/proxyui.png"
+                 alt="proxyui"
+                 
+                 
+                 
+                 style="max-width: 100%; height: auto;"
+            /></div></li>
+</ul>
+<h1 id="متى-يجب-عليك-استخدام-الخادم-الوكيل">متى يجب عليك استخدام الخادم الوكيل؟</h1>
+<p>بما أن أي موقع ويب تتصل به سيرى عنوان IP الخاص بالخادم الوكيل بدلاً من عنوانك الحقيقي، فإنك تكتسب قدراً بسيطاً من الخصوصية. هذا لا يكفي لضمان خصوصيتك أو أمانك بالكامل، ولكنه يجعله مفيداً في بعض السيناريوهات.</p>
+<p><strong>استخدم الخادم الوكيل في الحالات التالية:</strong></p>
+<ul>
+<li><strong>تجاوز القيود الجغرافية:</strong> إذا أردت مشاهدة محتوى (مثل فيديو على يوتيوب) محظور في منطقتك.</li>
+<li><strong>تخطي قيود التصويت:</strong> لتجاوز استطلاعات الرأي عبر الإنترنت التي تسمح بصوت واحد لكل عنوان IP.</li>
+<li><strong>إدارة حسابات متعددة:</strong> لتشغيل حسابات متعددة على خدمات قد تقيدك بحساب واحد لكل شخص.</li>
+<li><strong>تجنب الحظر القائم على IP:</strong> إذا تم حظرك من لعبة أو منتدى بناءً على عنوان IP الخاص بك، يمكن للوكيل مساعدتك في تجاوز ذلك (لكنه لن يساعد في حال كان الحظر مرتبطاً بمعرف المستخدم أو الجهاز).
+<div class=" "><img src="/images/blog/connect5g.png"
+                 alt="connect"
+                 
+                 
+                 
+                 style="max-width: 100%; height: auto;"
+            /></div></li>
+</ul>
+<p>بالنسبة للمستخدم العادي، تخدم الخوادم الوكيلة والشبكات الافتراضية الخاصة أغراضاً متشابهة، لكن <strong>الشبكات الافتراضية الخاصة (VPNs) تقوم بتشفير حركة المرور الخاصة بك</strong> ، بينما لا تفعل الخوادم الوكيلة ذلك.</p>
+<p>من الناحية العملية، قد لا يكون هذا مهماً جداً. إذا كنت تحاول فقط تجاوز حظر جغرافي لمقطع فيديو، فلا حاجة حقيقية لشبكة VPN، فالخادم الوكيل يفي بالغرض.</p>
+<p>نظرياً، الخوادم الوكيلة أسرع لأنها لا تستخدم التشفير، مما يعني أن بياناتك تمر بخطوات أقل. ولكن في الواقع، من غير المرجح أن تلاحظ فرقاً كبيراً إلا إذا كنت تقوم بنشاط حساس جداً لزمن الاستجابة (latency) مثل الألعاب عبر الإنترنت.</p>
+<p>من المهم أيضاً أن تعرف أن الخوادم الوكيلة لا تفعل شيئاً إضافياً لحماية بياناتك أثناء النقل. طرق الأمان المستخدمة من قبل جهازك أو الخدمة التي تستخدمها هي كل ما لديك.</p>
+<h1 id="ماذا-عن-الخوادم-الوكيلة-العكسية-reverse-proxies">ماذا عن الخوادم الوكيلة العكسية (Reverse Proxies)؟</h1>
+<p>كما يوحي الاسم، تقوم الخوادم الوكيلة العكسية بالعكس تماماً من الخادم الوكيل &ldquo;الأمامي&rdquo;. الغرض الأساسي للوكيل العكسي هو أن يكون وسيطاً بين الإنترنت الواسع وخادم فردي معين. غالباً ما يتم ذلك <strong>لإخفاء عنوان IP الحقيقي للخادم</strong> لمنع الهجمات. إذا حاولت يوماً استضافة شيء بنفسك على الإنترنت، فهذه خطوة مهمة جداً لحماية أمنك.</p>
+<p>في هذا الموقع، يمكن للوكلاء العكسيين القيام بالكثير، مثل:</p>
+<ul>
+<li><strong>الحماية من هجمات الحرمان من الخدمة الموزعة (DDoS).</strong></li>
+<li><strong>العمل كجدار ناري يتحكم في حركة المرور الواردة.</strong></li>
+<li><strong>موازنة الأحمال (Load Balancing) لتوزيع الطلبات ومنع الضرر على الخادم.</strong></li>
+</ul>
+<hr>
+<p><strong>خلاصة القول</strong></p>
+<p>في النهاية، تذكر أنه بغض النظر عن مقدار الخصوصية التي تكتسبها من خلال خادم وكيل أو شبكة VPN، هناك طرق أخرى لتتبعك عبر الإنترنت يصعب التغلب عليها. لا تفترض أنه لمجرد إخفاء عنوان IP الخاص بك، فأنت مجهول الهوية تماماً.</p>
+<p>الخادم الوكيل هو أداة مفيدة في مجموعة أدواتك الرقمية، خاصة لتجاوز القيود الجغرافية أو إخفاء موقعك الأساسي. ومع ذلك، عندما يتعلق الأمر بالأمان القوي والتشفير الكامل، تظل الشبكة الافتراضية الخاصة (VPN) هي الخيار الأفضل.</p>
+<p><strong>هل استخدمت خادماً وكيلاً من قبل؟ شاركنا رأيك في التعليقات، ولا تنسَ متابعة TechBaytk</strong>  للمزيد من الشروحات والنصائح التقنية! نحن في TechBaytk نعتبر رأيك هو اللوحة التي تزين بيت التقنية.</p>
+
+          </div>
+          <div class="row items-start justify-between">
+            
+            
+              <div class="lg:col-6 mb-10 flex items-center lg:mb-0">
+                <h5 class="mr-3">Tags :</h5>
+                <ul>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/ar/tags/network/">
+                        Network
+                      </a>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+            <div class="lg:col-6 flex items-center lg:justify-end">
+              <h5>مشاركة :</h5>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="share-icons">
+  
+  
+    <a
+      class="share-link share-facebook"
+      href="https://facebook.com/sharer/sharer.php?u=%2f%2flocalhost%3a1313%2far%2fblog%2fwhat-is-a-proxy-server-and-should-you-use-one%2f"
+      target="_blank"
+      rel="noopener"
+      aria-label="share facebook">
+      <span class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+    <a
+      class="share-link share-x"
+      href="https://x.com/intent/tweet/?text=%d9%85%d8%a7%20%d9%87%d9%88%20%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85%20%d8%a7%d9%84%d9%88%d9%83%d9%8a%d9%84%2c%20%d9%88%d9%87%d9%84%20%d9%8a%d8%ac%d8%a8%20%d8%b9%d9%84%d9%8a%d9%83%20%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85%d9%87%d8%9f%20%28Proxy%20Server%29&amp;url=%2f%2flocalhost%3a1313%2far%2fblog%2fwhat-is-a-proxy-server-and-should-you-use-one%2f"
+      target="_blank"
+      rel="noopener"
+      aria-label="share x">
+      <span aria-hidden="true" class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+    <a
+      class="share-link share-email"
+      href="mailto:?subject=%d9%85%d8%a7%20%d9%87%d9%88%20%d8%a7%d9%84%d8%ae%d8%a7%d8%af%d9%85%20%d8%a7%d9%84%d9%88%d9%83%d9%8a%d9%84%2c%20%d9%88%d9%87%d9%84%20%d9%8a%d8%ac%d8%a8%20%d8%b9%d9%84%d9%8a%d9%83%20%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85%d9%87%d8%9f%20%28Proxy%20Server%29&amp;body=%2f%2flocalhost%3a1313%2far%2fblog%2fwhat-is-a-proxy-server-and-should-you-use-one%2f"
+      target="_self"
+      rel="noopener"
+      aria-label="share email">
+      <span aria-hidden="true" class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+    <span class="fediverse-share">
+      <a
+        class="share-link share-fediverse"
+        href="javascript:void(0);"
+        onclick="toggleFediverseInput(this)"
+        aria-label="share fediverse">
+        <span aria-hidden="true" class="share-icon">
+          <svg
+            viewBox="-10 -5 1034 1034"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M539 176q-32 0 -55 22t-25 55t20.5 58t56 27t58.5 -20.5t27 -56t-20.5 -59t-56.5 -26.5h-5zM452 271l-232 118q20 20 25 48l231 -118q-19 -20 -24 -48zM619 298q-13 25 -38 38l183 184q13 -25 39 -38zM477 320l-135 265l40 40l143 -280q-28 -5 -48 -25zM581 336 q-22 11 -46 10l-8 -1l21 132l56 9zM155 370q-32 0 -55 22.5t-25 55t20.5 58t56.5 27t59 -21t26.5 -56t-21 -58.5t-55.5 -27h-6zM245 438q1 9 1 18q-1 19 -10 35l132 21l26 -50zM470 474l-26 51l311 49q-1 -8 -1 -17q1 -19 10 -36zM842 480q-32 1 -55 23t-24.5 55t21 58 t56 27t58.5 -20.5t27 -56.5t-20.5 -59t-56.5 -27h-6zM236 493q-13 25 -39 38l210 210l51 -25zM196 531q-21 11 -44 10l-9 -1l40 256q21 -10 45 -9l8 1zM560 553l48 311q21 -10 44 -9l10 1l-46 -294zM755 576l-118 60l8 56l135 -68q-20 -20 -25 -48zM781 625l-119 231 q28 5 48 25l119 -231q-28 -5 -48 -25zM306 654l-68 134q28 5 48 25l60 -119zM568 671l-281 143q19 20 24 48l265 -135zM513 771l-51 25l106 107q13 -25 39 -38zM222 795q-32 0 -55.5 22.5t-25 55t21 57.5t56 27t58.5 -20.5t27 -56t-20.5 -58.5t-56.5 -27h-5zM311 863 q2 9 1 18q-1 19 -9 35l256 41q-1 -9 -1 -18q1 -18 10 -35zM646 863q-32 0 -55 22.5t-24.5 55t20.5 58t56 27t59 -21t27 -56t-20.5 -58.5t-56.5 -27h-6z"></path>
+            </g>
+          </svg>
+        </span>
+      </a>
+      <span class="fediverse-input-wrapper" style="display: none;">
+        <input
+          type="text"
+          placeholder="Enter Fediverse Instance URL"
+          class="fediverse-input"
+          onkeypress="handleFediverseShare(event, '\/\/localhost:1313\/ar\/blog\/what-is-a-proxy-server-and-should-you-use-one\/', 'ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)')" />
+        <button
+          class="fediverse-check-button"
+          onclick="handleFediverseShareButton(this, '\/\/localhost:1313\/ar\/blog\/what-is-a-proxy-server-and-should-you-use-one\/', 'ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)')">
+          Share
+        </button>
+      </span>
+    </span>
+  
+
+
+  
+  
+    <button
+      class="share-link share-copy"
+      onclick="copyToClipboard(this, '\/\/localhost:1313\/ar\/blog\/what-is-a-proxy-server-and-should-you-use-one\/')">
+      <span class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 17H5V5h14v14z" />
+        </svg>
+      </span>
+    </button>
+  
+
+</div>
+
+<script>
+  
+  function toggleFediverseInput(element) {
+    const container = element.closest(".fediverse-share");
+    const inputContainer = container.querySelector(".fediverse-input-wrapper");
+    inputContainer.style.display =
+      inputContainer.style.display === "none" ? "block" : "none";
+  }
+
+  
+  function handleFediverseShare(event, url, title) {
+    if (event.key === "Enter") {
+      const input = event.target;
+      let instanceUrl = input.value.trim();
+      if (instanceUrl) {
+        if (!instanceUrl.startsWith("https://")) {
+          instanceUrl = `https://${instanceUrl}`;
+        }
+        const shareUrl = `${instanceUrl}/share?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`;
+        window.open(shareUrl, "_blank", "noopener");
+      }
+    }
+  }
+
+  
+  function handleFediverseShareButton(button, url, title) {
+    const input = button.previousElementSibling;
+    let instanceUrl = input.value.trim();
+    if (instanceUrl) {
+      if (!instanceUrl.startsWith("https://")) {
+        instanceUrl = `https://${instanceUrl}`;
+      }
+      const shareUrl = `${instanceUrl}/share?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`;
+      window.open(shareUrl, "_blank", "noopener");
+    }
+  }
+
+  
+  function copyToClipboard(button, text) {
+    navigator.clipboard.writeText(text).then(() => {
+      const icon = button.querySelector("svg path");
+      const originalIconPath =
+        "M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 17H5V5h14v14z";
+      const checkIconPath =
+        "M9 16.2l-3.5-3.5-1.4 1.4L9 19 20 8l-1.4-1.4L9 16.2z";
+
+      
+      icon.setAttribute("d", checkIconPath);
+
+      
+      setTimeout(() => {
+        icon.setAttribute("d", originalIconPath);
+      }, 1000);
+    });
+  }
+</script>
+
+            </div>
+          </div>
+          
+          
+            <div class="mt-20">
+              <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "themefisher-template" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+          
+        </article>
+      </div>
+
+      
+      
+      
+      
+        <div class="section pb-0">
+          <h2 class="h3 mb-12">مواضيع ذات صلة</h2>
+          <div class="row">
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body" dir="rtl">
+    <div class="relative overflow-hidden rounded-lg blog-card-image-wrapper">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/blog/web-server_hu_d52a0c03270743ca.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/blog/web-server_hu_1c9799f9ff9b18ba.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/blog/web-server_hu_307e01bb5654cb7b.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/blog/web-server_hu_7f89261edb190fbd.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/blog/web-server_hu_a483114a16188eb8.jpg"
+            class=" w-full h-auto img"
+            alt="أهم 25 منفذ شبكة يجب أن تعرفها "
+            width="860"
+            height="546" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+        
+
+        <div class="absolute top-0 right-0 p-4 text-center date-bookmark z-10">
+            <div class="text-xs">2025</div>
+            <div class="text-3xl font-bold leading-none">28</div>
+            <div class="text-xs">May</div>
+        </div>
+    </div>
+    <div class="card-content-below-image pt-4">
+        <div class="card-title-container">
+            <div class="bottom-0 left-0 right-0 p-2 text-right z-10">
+                <h4 class="mb-0 text-xl sm:text-2xl font-bold hover:underline underline-offset-8">
+                    <a href="/ar/blog/top-25-network-ports-you-must-know-for-interviews/" class="hover:text-primary-light">
+                        أهم 25 منفذ شبكة يجب أن تعرفها 
+                    </a>
+                </h4>
+            </div>
+
+            
+            
+            <ul class="mb-4">
+                <li class="mr-4 inline-block">
+                    <a href="/ar/authors/kenan-melhem/"
+                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                        <i class="fa-regular fa-circle-user mr-2"></i>Kenan Melhem
+                    </a>
+                </li>
+                <li class="mr-4 inline-block">
+                    <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
+                    
+                    <a href="/ar/categories/knowledge/"
+                        class="ms-1 text-gray-600 dark:text-white hover:text-gray-300">Knowledge
+                    </a>
+                    
+                </li>
+            </ul>
+            
+        </div>
+        <p class="mb-6 text-gray-700 dark:text-gray-400">إذا كنت تستعد لمقابلة عمل في مجال الشبكات، إدارة أنظمة لينكس، DevOps، أو الأمن السيبراني، فإن فهم منافذ الشبكة أمر ضروري. تُعد أرقام المنافذ عنصرًا أساسيًا في الاتصالات الشبكية، وغالبًا ما يختبر المحاورون معرفة المرشحين بالمنافذ الشائعة، البروتوكولات المرتبطة بها، والآثار الأمنية لفتح المنافذ.
+</p>
+        <a class="btn btn-outline-primary btn-sm" href="/ar/blog/top-25-network-ports-you-must-know-for-interviews/">
+            المزيد
+        </a>
+    </div>
+</div>
+              </div>
+            
+          </div>
+        </div>
+      
+    </div>
+  </section>
+
+    </main>
+
+    
+    <footer class="bg-light dark:bg-darkmode-light">
+  <div class="container">
+    <div class="row items-center py-10">
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
+        
+        <a
+          class="navbar-brand inline-block"
+          href="/ar/">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+      
+      
+
+
+      
+      
+        
+        
+        
+        
+
+        
+        
+        
+      
+      
+    
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img img-light"
+      width="160"
+      height="32"
+      src="/images/logo_hu_c4e3df2a21189bc4.webp"
+      alt="TechBaytk"
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_7ffb2225aa47a521.png';" />
+
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img img-dark"
+      width="160"
+      height="32"
+      src="/images/logo-darkmode_hu_e92f8fc231c63a3f.webp"
+      alt="TechBaytk"
+      onerror="this.onerror=null;this.src='\/images\/logo-darkmode_hu_b2f5d8b932e4839e.png';" />
+  
+  
+
+
+        </a>
+      </div>
+      <div class="lg:col-6 mb-8 text-center lg:mb-0">
+        <ul>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /ar/about
+                "
+                >حول</a
+              >
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /ar/elements
+                "
+                >العناصر</a
+              >
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /ar/privacy-policy
+                "
+                >اتفاقية الخصوصية</a
+              >
+            </li>
+          
+        </ul>
+      </div>
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
+        <ul class="social-icons">
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="facebook"
+                rel="nofollow noopener"
+                href="https://www.facebook.com/">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="twitter"
+                rel="nofollow noopener"
+                href="https://twitter.com/">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="github"
+                rel="nofollow noopener"
+                href="https://www.github.com/">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="Youtube"
+                rel="nofollow noopener"
+                href="https://www.youtube.com/@TechBaytk">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="border-border dark:border-darkmode-border border-t py-7">
+    <div
+      class="text-text-light dark:text-darkmode-text-light container text-center">
+      <p>
+        Designed &amp; Developed with 🩷 by <a href="authors/kenan-melhem/"
+
+
+
+ 
+
+
+>Kenan Melhem</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+    
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script.js"></script>
+
+
+<script
+  defer
+  async
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script-lazy.js"></script>
+
+
+
+<script>
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
+</script>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+    
+    
+<a id="scrollToTopBtn" href="#"
+   class="fixed bottom-6 right-6 p-3 bg-primary text-white rounded-full shadow-lg opacity-0 transition-opacity duration-300 ease-in-out z-50
+          hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary-light focus:ring-opacity-75"
+   aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 300) { 
+                scrollToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                scrollToTopBtn.classList.add('opacity-100');
+            } else {
+                scrollToTopBtn.classList.remove('opacity-100');
+                scrollToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+            }
+        };
+
+        
+        const scrollToTop = (event) => {
+            event.preventDefault(); 
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' 
+            });
+        };
+
+        
+        window.addEventListener('scroll', toggleVisibility);
+        scrollToTopBtn.addEventListener('click', scrollToTop);
+
+        
+        toggleVisibility();
+    });
+</script>
+  </body>
+</html>

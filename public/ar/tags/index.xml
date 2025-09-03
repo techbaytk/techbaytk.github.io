@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on بيت التقنية</title>
+    <link>//localhost:1313/ar/tags/</link>
+    <description>Recent content in Tags on بيت التقنية</description>
+    <generator>Hugo</generator>
+    <language>ar-sa</language>
+    <lastBuildDate>Mon, 23 Jun 2025 00:33:00 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>//localhost:1313/ar/tags/network/</link>
+      <pubDate>Mon, 23 Jun 2025 00:33:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apps</title>
+      <link>//localhost:1313/ar/tags/apps/</link>
+      <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivty</title>
+      <link>//localhost:1313/ar/tags/productivty/</link>
+      <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/productivty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>//localhost:1313/ar/tags/how-to/</link>
+      <pubDate>Fri, 13 Jun 2025 17:28:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tweak</title>
+      <link>//localhost:1313/ar/tags/tweak/</link>
+      <pubDate>Fri, 13 Jun 2025 17:28:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/tweak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>//localhost:1313/ar/tags/news/</link>
+      <pubDate>Wed, 28 May 2025 14:13:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foss</title>
+      <link>//localhost:1313/ar/tags/foss/</link>
+      <pubDate>Sat, 24 May 2025 16:10:00 +0300</pubDate>
+      <guid>//localhost:1313/ar/tags/foss/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+
+{{- /* Initialize variables */ -}}
+{{- $width := "" -}}
+{{- $height := "" -}}
+{{- $placement := "" -}}
+{{- $finalAlt := $alt -}} 
+
+{{- /*
+    Parse Obsidian's optional |placement|WIDTHxHEIGHT or |WIDTH syntax.
+    We'll split the alt text by '|' and parse from right to left.
+*/ -}}
+{{- if $alt -}}
+    {{- $altParts := split $alt "|" -}}
+    {{- $numParts := len $altParts -}}
+
+    {{- if gt $numParts 1 -}}
+        {{- /* Check the last part for dimensions */ -}}
+        {{- $lastPart := index $altParts (sub $numParts 1) -}}
+        {{- if findRE `^\d+(x\d+)?$` $lastPart -}}
+            {{- $dims := split $lastPart "x" -}}
+            {{- $width = index $dims 0 -}}
+            {{- if gt (len $dims) 1 -}}
+                {{- $height = index $dims 1 -}}
+            {{- end -}}
+            {{- $numParts = sub $numParts 1 -}} 
+        {{- end -}}
+    {{- end -}}
+
+    {{- if gt $numParts 1 -}}
+        {{- /* Check the new last part (if dimensions were removed, or if it's the only extra part) for placement */ -}}
+        {{- $secondToLastPart := index $altParts (sub $numParts 1) -}}
+        {{- if in (slice "center" "left" "right") $secondToLastPart -}}
+            {{- $placement = $secondToLastPart -}}
+            {{- $numParts = sub $numParts 1 -}} 
+        {{- end -}}
+    {{- end -}}
+
+    {{- /* Reconstruct the final alt text without parsed parameters */ -}}
+    {{- if gt (len $altParts) $numParts -}}
+        {{- $finalAlt = delimit (first $numParts $altParts) "|" -}}
+    {{- else -}}
+        {{- $finalAlt = $alt -}} 
+    {{- end -}}
+{{- end -}}
+
+{{- $originalPath := $src -}}
+{{- $image := "" -}}
+{{- $wrapperClass := "" -}}
+
+{{- /* Determine wrapper class based on placement */ -}}
+{{- if eq $placement "center" -}}
+    {{- $wrapperClass = "flex justify-center" -}}
+{{- else if eq $placement "left" -}}
+    {{- $wrapperClass = "flex justify-end" -}}
+{{- else if eq $placement "right" -}}
+    {{- $wrapperClass = "flex justify-start" -}}
+{{- end -}}
+
+{{- /* Use a div wrapper for alignment */ -}}
+<div class="{{ $wrapperClass }} {{ if $placement }}w-full{{ end }}"> {{- /* Apply w-full to wrapper only if placement is specified */ -}}
+    {{- if hasPrefix $originalPath "/" -}}
+        {{- $imagePath := $originalPath -}}
+        <img src="{{ $imagePath }}"
+             alt="{{ $finalAlt }}"
+             {{ if $title }}title="{{ $title }}"{{ end }}
+             {{ if $width }}width="{{ $width }}"{{ end }}
+             {{ if $height }}height="{{ $height }}"{{ end }}
+             style="max-width: 100%; height: auto;"
+        />
+    {{- else -}}
+        {{- /*
+            If relative, try to get it as a global asset.
+            We assume it's in assets/images/blog/.
+            Adjust 'images/blog/%s' if your relative paths vary (e.g., if you have images directly in assets/).
+        */ -}}
+        {{- $assetPath := printf "images/blog/%s" $originalPath -}}
+        {{- with resources.Get $assetPath -}}
+            {{- $image = . -}}
+            {{- /*
+                Optional: Apply Hugo's image processing here if needed (e.g., resizing, quality).
+                Example: $image = $image.Resize "800x"
+                Example: $image = $image.Fill "600x400 Center"
+            */ -}}
+            {{- $imagePath := $image.RelPermalink -}}
+            <img src="{{ $imagePath }}"
+                 alt="{{ $finalAlt }}"
+                 {{ if $title }}title="{{ $title }}"{{ end }}
+                 {{ if $width }}width="{{ $width }}"{{ end }}
+                 {{ if $height }}height="{{ $height }}"{{ end }}
+                 style="max-width: 100%; height: auto;"
+            />
+        {{- else -}}
+            <img src="/broken-image.png" alt="{{ $finalAlt }}" style="border: 5px solid red; max-width: 100%; height: auto;" title="Error: Image not found at expected path: {{ $assetPath }}"/>
+        {{- end -}}
+    {{- end -}}
+</div>
