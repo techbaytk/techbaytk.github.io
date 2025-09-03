@@ -20,15 +20,31 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-          
+      
+      # Install Node.js and dependencies
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Node dependencies
+        run: npm install
+
+      # This is the critical new step to grant execute permission
       - name: Set permissions for TailwindCSS
         run: chmod +x ./node_modules/.bin/tailwindcss
 
       - name: Build
-        run: hugo --minify --baseURL "${{ env.HUGO_BASEURL }}"
-        env:
-          HUGO_BASEURL: "https://techbaytk.github.io/"
-
+        run: hugo --minify --baseURL "https://techbaytk.github.io/"
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
