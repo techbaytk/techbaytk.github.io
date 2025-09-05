@@ -21,7 +21,6 @@ jobs:
           hugo-version: 'latest'
           extended: true
       
-      # Install Node.js and dependencies
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -38,7 +37,6 @@ jobs:
       - name: Install Node dependencies
         run: npm install
 
-      # This is the critical new step to grant execute permission
       - name: Set permissions for TailwindCSS
         run: chmod +x ./node_modules/.bin/tailwindcss
 
