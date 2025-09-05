@@ -30,7 +30,7 @@
                     <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/"
                         class="text-gray-600 dark:text-white hover:text-gray-300 ">
                         <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
-                    </a> <a href="http://foo.com/bar.html#disqus_thread">Link</a>
+                    </a> <a href="{{.RelPermalink}}#disqus_thread">Link</a>
                 </li>
                 <li class="mr-4 inline-block">
                     <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
