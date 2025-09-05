@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on TechBaytk</title>
-    <link>//localhost:1313/en/categories/android/</link>
+    <link>http://localhost:1313/en/categories/android/</link>
     <description>Recent content in Android on TechBaytk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jun 2025 17:30:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/en/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Best Free Apps to Supercharge Your Phone in 2025</title>
-      <link>//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</link>
+      <link>http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</link>
       <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
+      <guid>http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
       <description>&lt;p&gt;Is your phone not performing like it used to? Looking for smart tools to boost efficiency without spending a dime? At &lt;strong&gt;TechBaytk&lt;/strong&gt;, we&amp;rsquo;ve curated the top free apps that will transform your mobile experience in 2025 - optimizing speed, productivity, and security.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9 More Open Source Android Apps You Should Be Using</title>
-      <link>//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</link>
+      <link>http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</link>
       <pubDate>Sat, 24 May 2025 16:10:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</guid>
+      <guid>http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</guid>
       <description>&lt;p&gt;Android, built on open-source principles, boasts a thriving ecosystem of open-source apps that prioritize &lt;strong&gt;transparency, privacy, and data freedom&lt;/strong&gt;. These apps—&lt;strong&gt;often free and ad-free&lt;/strong&gt;—easily rival their proprietary counterparts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Samsung&#39;s New Vertical App Drawer in One UI 7 Is a Game-Changer</title>
-      <link>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
+      <link>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
       <pubDate>Sun, 18 May 2025 13:48:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
+      <guid>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
       <description>&lt;p&gt;With the launch of One UI 7, millions of Samsung fans are experiencing the vertical app drawer for the first time—a feature other Android phones have had for nearly a decade. Yet this simple change has become one of the most praised aspects of the update. Should you make the switch?&lt;/p&gt;</description>
     </item>
   </channel>

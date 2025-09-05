@@ -72,7 +72,6 @@
 
 
 
-  <base href="//localhost:1313/ar/contact/" />
 
 
 
@@ -96,11 +95,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/en/contact/" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/contact/" />
   
-    <link rel="alternate" hreflang="ar" href="//localhost:1313/ar/contact/" />
+    <link rel="alternate" hreflang="ar" href="http://localhost:1313/ar/contact/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/ar/contact/" />
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/ar/contact/" />
 
 
 
@@ -166,8 +165,8 @@
       
       
       
-        <meta property="og:image" content="//localhost:1313/images/og-image.png" />
-        <meta name="twitter:image" content="//localhost:1313/images/og-image.png" />
+        <meta property="og:image" content="http://localhost:1313/images/og-image.png" />
+        <meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -194,7 +193,7 @@
 <meta property="og:title" content="Contact" />
 <meta property="og:description" content="this is meta description" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/ar/contact/" />
+<meta property="og:url" content="http://localhost:1313/ar/contact/" />
 
 
 <meta name="twitter:title" content="Contact" />
@@ -215,6 +214,22 @@
 
 
 
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-832HC6LB6M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-832HC6LB6M');
+        }
+      </script>
+
 
 
 
@@ -225,7 +240,7 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/ar/searchindex.json";
+  let indexURL = "http://localhost:1313/ar/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "لا يوجد نتائج بحث عن";
   let search_initial_message = "اكتب شيئاً للبحث..";
@@ -696,7 +711,7 @@
             
             
             <li class="lang-option">
-                <a href="//localhost:1313/en/" class="lang-link">En (EN)</a>
+                <a href="http://localhost:1313/en/" class="lang-link">En (EN)</a>
             </li>
             
             
@@ -948,7 +963,7 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/ar/">
+    <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/ar/">
       الرئيسية🏠
     </a>
     <span class="inlin-block mr-1">/</span>
@@ -1235,7 +1250,11 @@
       </p>
     </div>
   </div>
+
+  <script id="dsq-count-scr" src="//techbaytk.disqus.com/count.js" async></script>
 </footer>
+
+
 
 
 

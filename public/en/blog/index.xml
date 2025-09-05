@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Posts on TechBaytk</title>
-    <link>//localhost:1313/en/blog/</link>
+    <link>http://localhost:1313/en/blog/</link>
     <description>Recent content in Blog Posts on TechBaytk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:33:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proxy Servers Explained: When and Why to Use Them for Online Privacy</title>
-      <link>//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</link>
+      <link>http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</link>
       <pubDate>Mon, 23 Jun 2025 00:33:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</guid>
+      <guid>http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s digital landscape, understanding online privacy tools has never been more crucial. Among these tools, proxy servers stand out as both useful and misunderstood. Let&amp;rsquo;s demystify what proxies are, how they work, and when they&amp;rsquo;re the right choice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Best Free Apps to Supercharge Your Phone in 2025</title>
-      <link>//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</link>
+      <link>http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</link>
       <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
+      <guid>http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
       <description>&lt;p&gt;Is your phone not performing like it used to? Looking for smart tools to boost efficiency without spending a dime? At &lt;strong&gt;TechBaytk&lt;/strong&gt;, we&amp;rsquo;ve curated the top free apps that will transform your mobile experience in 2025 - optimizing speed, productivity, and security.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Disable Bing Web Search Results in Windows 10/11 Search</title>
-      <link>//localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</link>
+      <link>http://localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</link>
       <pubDate>Fri, 13 Jun 2025 17:28:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</guid>
+      <guid>http://localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</guid>
       <description>&lt;p&gt;Tired of seeing irrelevant Bing results when searching for local apps and files? You&amp;rsquo;re not alone!&lt;/p&gt;</description>
     </item>
     <item>
       <title>This File Manager Solves All My Windows File Explorer Woes</title>
-      <link>//localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</link>
+      <link>http://localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</link>
       <pubDate>Tue, 03 Jun 2025 10:41:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</guid>
+      <guid>http://localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</guid>
       <description>&lt;p&gt;Windows File Explorer has been the default file management tool for millions of users for decades. While it is a reliable and familiar tool, it lacks many modern features that power users need.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 25 Essential Network Ports You Must Know for Tech Interviews</title>
-      <link>//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</link>
+      <link>http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</link>
       <pubDate>Wed, 28 May 2025 14:46:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</guid>
+      <guid>http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re preparing for a networking, Linux administration, DevOps, or cybersecurity job interview, understanding network ports is crucial. Port numbers are fundamental to network communications, and interviewers frequently test candidates on common ports, their associated protocols, and the security implications of open ports.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Unveils Game-Changing &#34;AI Mode&#34; to Revolutionize Search Experience</title>
-      <link>//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</link>
+      <link>http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</link>
       <pubDate>Wed, 28 May 2025 14:13:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</guid>
+      <guid>http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</guid>
       <description>&lt;p&gt;In a bold move that redefines internet search, Google has introduced &lt;strong&gt;&amp;ldquo;AI Mode&amp;rdquo;&lt;/strong&gt; — a transformative feature designed to deliver intelligent, detailed responses that go far beyond traditional search methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Fix &#34;This App Is Preventing Shutdown&#34; Error in Windows 11</title>
-      <link>//localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</link>
+      <link>http://localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</link>
       <pubDate>Sat, 24 May 2025 21:37:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</guid>
+      <guid>http://localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</guid>
       <description>&lt;p&gt;Have you ever tried to shut down or restart your &lt;strong&gt;Windows 11&lt;/strong&gt; PC, only to return and find it still running with an error message saying &lt;strong&gt;&amp;ldquo;This app is preventing shutdown&amp;rdquo;&lt;/strong&gt;? If you&amp;rsquo;ve encountered this frustrating situation, you&amp;rsquo;re not alone.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9 More Open Source Android Apps You Should Be Using</title>
-      <link>//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</link>
+      <link>http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</link>
       <pubDate>Sat, 24 May 2025 16:10:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</guid>
+      <guid>http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</guid>
       <description>&lt;p&gt;Android, built on open-source principles, boasts a thriving ecosystem of open-source apps that prioritize &lt;strong&gt;transparency, privacy, and data freedom&lt;/strong&gt;. These apps—&lt;strong&gt;often free and ad-free&lt;/strong&gt;—easily rival their proprietary counterparts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First 5 Apps I Always Install on a New Windows PC</title>
-      <link>//localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</link>
+      <link>http://localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</link>
       <pubDate>Sun, 18 May 2025 13:48:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</guid>
+      <guid>http://localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</guid>
       <description>&lt;p&gt;That new computer smell is intoxicating, isn&amp;rsquo;t it? The sleek design, the promise of speed&amp;hellip; until you power it on and realize it&amp;rsquo;s bloated with pre-installed software you&amp;rsquo;ll never use and lacking essential tools to make your digital life smoother. After years of this cycle, I&amp;rsquo;ve developed a core set of must-have free Windows apps that instantly make any new machine feel like my own. Without these, my PC feels incomplete.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Samsung&#39;s New Vertical App Drawer in One UI 7 Is a Game-Changer</title>
-      <link>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
+      <link>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
       <pubDate>Sun, 18 May 2025 13:48:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
+      <guid>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
       <description>&lt;p&gt;With the launch of One UI 7, millions of Samsung fans are experiencing the vertical app drawer for the first time—a feature other Android phones have had for nearly a decade. Yet this simple change has become one of the most praised aspects of the update. Should you make the switch?&lt;/p&gt;</description>
     </item>
   </channel>

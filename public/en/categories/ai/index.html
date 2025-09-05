@@ -72,7 +72,6 @@
 
 
 
-  <base href="//localhost:1313/en/categories/ai/" />
 
 
 
@@ -94,11 +93,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/en/categories/ai/" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/categories/ai/" />
   
-    <link rel="alternate" hreflang="ar" href="//localhost:1313/ar/categories/ai/" />
+    <link rel="alternate" hreflang="ar" href="http://localhost:1313/ar/categories/ai/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/en/categories/ai/" />
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/en/categories/ai/" />
 
 
 
@@ -163,8 +162,8 @@
       
       
       
-        <meta property="og:image" content="//localhost:1313/images/og-image.png" />
-        <meta name="twitter:image" content="//localhost:1313/images/og-image.png" />
+        <meta property="og:image" content="http://localhost:1313/images/og-image.png" />
+        <meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -191,7 +190,7 @@
 <meta property="og:title" content="TechBaytk" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/en/categories/ai/" />
+<meta property="og:url" content="http://localhost:1313/en/categories/ai/" />
 
 
 <meta name="twitter:title" content="TechBaytk" />
@@ -212,6 +211,22 @@
 
 
 
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-832HC6LB6M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-832HC6LB6M');
+        }
+      </script>
+
 
 
 
@@ -222,7 +237,7 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/en/searchindex.json";
+  let indexURL = "http://localhost:1313/en/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -695,7 +710,7 @@
             
             
             <li class="lang-option">
-                <a href="//localhost:1313/ar/" class="lang-link">Ar (AR)</a>
+                <a href="http://localhost:1313/ar/" class="lang-link">Ar (AR)</a>
             </li>
             
             
@@ -945,7 +960,7 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/en/">
+    <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/en/">
       Home
     </a>
     <span class="inlin-block mr-1">/</span>
@@ -1086,10 +1101,16 @@
             
             <ul class="mb-4">
                 <li class="mr-4 inline-block">
+                    <a href="/en/blog/google-launches-ai-mode-to-redefine-online-search/#disqus_thread"
+                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                        <i class="fa-regular fa-comments mr-2"></i>Post a comment
+                    </a> 
+                </li>
+                <li class="mr-4 inline-block">
                     <a href="/en/authors/kenan-melhem/"
                         class="text-gray-600 dark:text-white hover:text-gray-300 ">
-                        <i class="fa-regular fa-circle-user mr-2"></i>Kenan Melhem
-                    </a>
+                        <i class="fa-regular fa-circle-user mr-2"></i> Kenan Melhem
+                    </a> 
                 </li>
                 <li class="mr-4 inline-block">
                     <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
@@ -1109,6 +1130,7 @@
         </a>
     </div>
 </div>
+
               </div>
             
           </div>
@@ -1326,7 +1348,11 @@
       </p>
     </div>
   </div>
+
+  <script id="dsq-count-scr" src="//techbaytk.disqus.com/count.js" async></script>
 </footer>
+
+
 
 
 

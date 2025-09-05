@@ -72,7 +72,6 @@
 
 
 
-  <base href="//localhost:1313/ar/tags/productivty/" />
 
 
 
@@ -94,11 +93,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/en/tags/productivty/" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/productivty/" />
   
-    <link rel="alternate" hreflang="ar" href="//localhost:1313/ar/tags/productivty/" />
+    <link rel="alternate" hreflang="ar" href="http://localhost:1313/ar/tags/productivty/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/ar/tags/productivty/" />
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/ar/tags/productivty/" />
 
 
 
@@ -163,8 +162,8 @@
       
       
       
-        <meta property="og:image" content="//localhost:1313/images/og-image.png" />
-        <meta name="twitter:image" content="//localhost:1313/images/og-image.png" />
+        <meta property="og:image" content="http://localhost:1313/images/og-image.png" />
+        <meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -191,7 +190,7 @@
 <meta property="og:title" content="بيت التقنية" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/ar/tags/productivty/" />
+<meta property="og:url" content="http://localhost:1313/ar/tags/productivty/" />
 
 
 <meta name="twitter:title" content="بيت التقنية" />
@@ -212,6 +211,22 @@
 
 
 
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-832HC6LB6M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-832HC6LB6M');
+        }
+      </script>
+
 
 
 
@@ -222,7 +237,7 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/ar/searchindex.json";
+  let indexURL = "http://localhost:1313/ar/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "لا يوجد نتائج بحث عن";
   let search_initial_message = "اكتب شيئاً للبحث..";
@@ -693,7 +708,7 @@
             
             
             <li class="lang-option">
-                <a href="//localhost:1313/en/" class="lang-link">En (EN)</a>
+                <a href="http://localhost:1313/en/" class="lang-link">En (EN)</a>
             </li>
             
             
@@ -945,7 +960,7 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/ar/">
+    <a class="text-primary dark:text-darkmode-primary" href="http://localhost:1313/ar/">
       الرئيسية🏠
     </a>
     <span class="inlin-block mr-1">/</span>
@@ -1126,10 +1141,16 @@
             
             <ul class="mb-4">
                 <li class="mr-4 inline-block">
+                    <a href="/ar/blog/the-best-4-free-apps-for-your-phone-2025/#disqus_thread"
+                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                        <i class="fa-regular fa-comments mr-2"></i>Post a comment
+                    </a> 
+                </li>
+                <li class="mr-4 inline-block">
                     <a href="/ar/authors/kenan-melhem/"
                         class="text-gray-600 dark:text-white hover:text-gray-300 ">
-                        <i class="fa-regular fa-circle-user mr-2"></i>Kenan Melhem
-                    </a>
+                        <i class="fa-regular fa-circle-user mr-2"></i> Kenan Melhem
+                    </a> 
                 </li>
                 <li class="mr-4 inline-block">
                     <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
@@ -1149,6 +1170,7 @@
         </a>
     </div>
 </div>
+
               </div>
             
               <div class="md:col-6 mb-14">
@@ -1293,10 +1315,16 @@
             
             <ul class="mb-4">
                 <li class="mr-4 inline-block">
+                    <a href="/ar/blog/this-file-manager-will-replace-my-windows-file-explorer/#disqus_thread"
+                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                        <i class="fa-regular fa-comments mr-2"></i>Post a comment
+                    </a> 
+                </li>
+                <li class="mr-4 inline-block">
                     <a href="/ar/authors/kenan-melhem/"
                         class="text-gray-600 dark:text-white hover:text-gray-300 ">
-                        <i class="fa-regular fa-circle-user mr-2"></i>Kenan Melhem
-                    </a>
+                        <i class="fa-regular fa-circle-user mr-2"></i> Kenan Melhem
+                    </a> 
                 </li>
                 <li class="mr-4 inline-block">
                     <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
@@ -1316,6 +1344,7 @@
         </a>
     </div>
 </div>
+
               </div>
             
           </div>
@@ -1533,7 +1562,11 @@
       </p>
     </div>
   </div>
+
+  <script id="dsq-count-scr" src="//techbaytk.disqus.com/count.js" async></script>
 </footer>
+
+
 
 
 

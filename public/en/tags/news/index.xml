@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on TechBaytk</title>
-    <link>//localhost:1313/en/tags/news/</link>
+    <link>http://localhost:1313/en/tags/news/</link>
     <description>Recent content in News on TechBaytk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 May 2025 14:13:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Unveils Game-Changing &#34;AI Mode&#34; to Revolutionize Search Experience</title>
-      <link>//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</link>
+      <link>http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</link>
       <pubDate>Wed, 28 May 2025 14:13:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</guid>
+      <guid>http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</guid>
       <description>&lt;p&gt;In a bold move that redefines internet search, Google has introduced &lt;strong&gt;&amp;ldquo;AI Mode&amp;rdquo;&lt;/strong&gt; — a transformative feature designed to deliver intelligent, detailed responses that go far beyond traditional search methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Samsung&#39;s New Vertical App Drawer in One UI 7 Is a Game-Changer</title>
-      <link>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
+      <link>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
       <pubDate>Sun, 18 May 2025 13:48:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
+      <guid>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
       <description>&lt;p&gt;With the launch of One UI 7, millions of Samsung fans are experiencing the vertical app drawer for the first time—a feature other Android phones have had for nearly a decade. Yet this simple change has become one of the most praised aspects of the update. Should you make the switch?&lt;/p&gt;</description>
     </item>
   </channel>

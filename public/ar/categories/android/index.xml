@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on بيت التقنية</title>
-    <link>//localhost:1313/ar/categories/android/</link>
+    <link>http://localhost:1313/ar/categories/android/</link>
     <description>Recent content in Android on بيت التقنية</description>
     <generator>Hugo</generator>
     <language>ar-sa</language>
     <lastBuildDate>Fri, 13 Jun 2025 17:30:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/ar/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ar/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> أفضل 4 تطبيقات مجانية لتحسين هاتفك في 2025</title>
-      <link>//localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/</link>
+      <link>http://localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/</link>
       <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
-      <guid>//localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
+      <guid>http://localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/</guid>
       <description>&lt;p&gt;هل تشعر أن أداء هاتفك لم يعد كما كان؟ أو أنك تبحث عن أدوات مجانية تجعل استخدام هاتفك أكثر ذكاءً وكفاءة؟ في هذه التدوينة من &lt;strong&gt;TechBaytk&lt;/strong&gt; ، نقدم لك مجموعة من أفضل التطبيقات المجانية التي ستُحسن من تجربة استخدام هاتفك في عام 2025، سواء من ناحية السرعة أو الإنتاجية أو الحماية.&lt;/p&gt;</description>
     </item>
     <item>
       <title>تسعة تطبيقات أندرويد مفتوحة المصدر يجب أن تستخدمها</title>
-      <link>//localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</link>
+      <link>http://localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</link>
       <pubDate>Sat, 24 May 2025 16:10:00 +0300</pubDate>
-      <guid>//localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</guid>
+      <guid>http://localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/</guid>
       <description>&lt;p&gt;يأتي نظام أندرويد، المبني على مبادئ مفتوحة المصدر، بنظام مزدهر من التطبيقات مفتوحة المصدر التي تعطي الأولوية &lt;strong&gt;للشفافية والخصوصية وحرية البيانات&lt;/strong&gt;. هذه التطبيقات، &lt;strong&gt;المجانية غالبًا والخالية من الإعلانات&lt;/strong&gt; ، يمكنها التنافس بسهولة مع نظيراتها التجارية. لقد قمنا بالفعل بتغطية بعض أفضل تطبيقات أندرويد في وقت سابق ولكننا اليوم سنتجه لللتطبيقات المفتوحة المصدر، وهذا بالكاد البداية فقط لذا، إليك المزيد من تطبيقات أندرويد الممتازة التي تدعم الشفافية وتقدم فائدة لا تصدق.&lt;/p&gt;</description>
     </item>
     <item>
       <title>هل انتقل إلى درج التطبيقات العمودي في أندرويد، ولماذا؟</title>
-      <link>//localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
+      <link>http://localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</link>
       <pubDate>Sun, 18 May 2025 13:48:00 +0300</pubDate>
-      <guid>//localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
+      <guid>http://localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</guid>
       <description>&lt;p&gt;مع إطلاق واجهة One UI 7 على الأجهزة، ينتقل ملايين مُحبي سامسونج إلى درج التطبيقات العمودي لأول مرة، وهو أمرٌ كانت هواتف أندرويد الأخرى تتمتع به منذ عقد. لماذا لا يزال هذا التغيير البسيط يُثير إعجاب الكثيرين باعتباره من أبرز ميزات هذا التحديث الجديد. هل علي استخدام هذه الميزة؟&lt;/p&gt;</description>
     </item>
   </channel>

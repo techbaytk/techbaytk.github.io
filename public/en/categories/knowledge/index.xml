@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knowledge on TechBaytk</title>
-    <link>//localhost:1313/en/categories/knowledge/</link>
+    <link>http://localhost:1313/en/categories/knowledge/</link>
     <description>Recent content in Knowledge on TechBaytk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:33:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/en/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proxy Servers Explained: When and Why to Use Them for Online Privacy</title>
-      <link>//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</link>
+      <link>http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</link>
       <pubDate>Mon, 23 Jun 2025 00:33:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</guid>
+      <guid>http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</guid>
       <description>&lt;p&gt;In today&amp;rsquo;s digital landscape, understanding online privacy tools has never been more crucial. Among these tools, proxy servers stand out as both useful and misunderstood. Let&amp;rsquo;s demystify what proxies are, how they work, and when they&amp;rsquo;re the right choice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 25 Essential Network Ports You Must Know for Tech Interviews</title>
-      <link>//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</link>
+      <link>http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</link>
       <pubDate>Wed, 28 May 2025 14:46:00 +0300</pubDate>
-      <guid>//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</guid>
+      <guid>http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re preparing for a networking, Linux administration, DevOps, or cybersecurity job interview, understanding network ports is crucial. Port numbers are fundamental to network communications, and interviewers frequently test candidates on common ports, their associated protocols, and the security implications of open ports.&lt;/p&gt;</description>
     </item>
   </channel>

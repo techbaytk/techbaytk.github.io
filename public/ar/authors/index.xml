@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>المدونون on بيت التقنية</title>
-    <link>//localhost:1313/ar/authors/</link>
+    <link>http://localhost:1313/ar/authors/</link>
     <description>Recent content in المدونون on بيت التقنية</description>
     <generator>Hugo</generator>
     <language>ar-sa</language>
-    <atom:link href="//localhost:1313/ar/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ar/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>اسمك هنا</title>
-      <link>//localhost:1313/ar/authors/your-name/</link>
+      <link>http://localhost:1313/ar/authors/your-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ar/authors/your-name/</guid>
+      <guid>http://localhost:1313/ar/authors/your-name/</guid>
       <description>&lt;p&gt;قد تكون المدون الشهير الذي ينتظره العالم. تواصل معنا لتنضم لنا وننشر الفائدة للجميع.&lt;/p&gt;</description>
     </item>
     <item>
       <title>كنان ملحم</title>
-      <link>//localhost:1313/ar/authors/kenan-melhem/</link>
+      <link>http://localhost:1313/ar/authors/kenan-melhem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ar/authors/kenan-melhem/</guid>
+      <guid>http://localhost:1313/ar/authors/kenan-melhem/</guid>
       <description>&lt;p&gt;مهندس اتصالات, مهتم بالتقنية ومبرمج متحمس لكل ماهو جديد في عالم البرمجيات والتطبيقات. تعلمت بشكل مستقل ذاتياً وأهدف لنشر ماتعلمته ومشاركته كون علوم التكنولوجيا والحاسب هي المستقبل الذي يجب أن يتطلع أليه الجميع. سأكون سعيد بالتعرف على رأيك لتطوير المحتوى وتعلم جديد. لأن اكتساب المعرفة هي رحلة من المشاركة مع مجمتمع مهتم.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -26,12 +26,7 @@
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
             <ul class="mb-4">
-                <li class="mr-4 inline-block">
-                    <a href="{{.RelPermalink}}#disqus_thread"
-                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
-                        <i class="fa-regular fa-comments mr-2"></i>Post a comment
-                    </a> 
-                </li>
+
                 <li class="mr-4 inline-block">
                     <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/"
                         class="text-gray-600 dark:text-white hover:text-gray-300 ">
@@ -56,5 +51,11 @@
         <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
             {{ T "read_more" }}
         </a>
+        <li class="mr-4 inline-block">
+            <a href="{{.RelPermalink}}#disqus_thread"
+                class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                <i class="fa-regular fa-comments mr-2"></i>
+            </a> 
+        </li>
     </div>
 </div>

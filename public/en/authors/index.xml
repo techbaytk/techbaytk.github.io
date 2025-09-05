@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on TechBaytk</title>
-    <link>//localhost:1313/en/authors/</link>
+    <link>http://localhost:1313/en/authors/</link>
     <description>Recent content in Authors on TechBaytk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/en/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kenan Melhem</title>
-      <link>//localhost:1313/en/authors/kenan-melhem/</link>
+      <link>http://localhost:1313/en/authors/kenan-melhem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/authors/kenan-melhem/</guid>
+      <guid>http://localhost:1313/en/authors/kenan-melhem/</guid>
       <description>&lt;p&gt;Communications engineer, interested in technology, programming and everything new in the world of software and applications. I learned independently and aimed at spreading what I learned. shared the fact that technology and computer science is the future that everyone should look forward to. I will be happy to get to know your opinion to develop content and new learning. Because acquiring knowledge is a journey from participating with an interested community.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Your Name</title>
-      <link>//localhost:1313/en/authors/your-name/</link>
+      <link>http://localhost:1313/en/authors/your-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/authors/your-name/</guid>
+      <guid>http://localhost:1313/en/authors/your-name/</guid>
       <description>&lt;p&gt;You may be the next famause blogger and the world is waaiting for you,. Contact us to join our cause.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,437 +2,437 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/"
+                href="http://localhost:1313/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/</loc>
+    <loc>http://localhost:1313/en/blog/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/"
+                href="http://localhost:1313/ar/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/"
+                href="http://localhost:1313/en/blog/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/categories/"
+                href="http://localhost:1313/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/knowledge/</loc>
+    <loc>http://localhost:1313/en/categories/knowledge/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/categories/knowledge/"
+                href="http://localhost:1313/ar/categories/knowledge/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/knowledge/"
+                href="http://localhost:1313/en/categories/knowledge/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/network/</loc>
+    <loc>http://localhost:1313/en/tags/network/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/network/"
+                href="http://localhost:1313/ar/tags/network/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/network/"
+                href="http://localhost:1313/en/tags/network/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</loc>
+    <loc>http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/"
+                href="http://localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/"
+                href="http://localhost:1313/en/blog/what-is-a-proxy-server-and-should-you-use-one/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-06-23T00:33:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/"
+                href="http://localhost:1313/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/android/</loc>
+    <loc>http://localhost:1313/en/categories/android/</loc>
     <lastmod>2025-06-13T17:30:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/categories/android/"
+                href="http://localhost:1313/ar/categories/android/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/android/"
+                href="http://localhost:1313/en/categories/android/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/apps/</loc>
+    <loc>http://localhost:1313/en/tags/apps/</loc>
     <lastmod>2025-06-13T17:30:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/apps/"
+                href="http://localhost:1313/ar/tags/apps/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/apps/"
+                href="http://localhost:1313/en/tags/apps/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/productivty/</loc>
+    <loc>http://localhost:1313/en/tags/productivty/</loc>
     <lastmod>2025-06-13T17:30:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/productivty/"
+                href="http://localhost:1313/ar/tags/productivty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/productivty/"
+                href="http://localhost:1313/en/tags/productivty/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</loc>
+    <loc>http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/</loc>
     <lastmod>2025-06-13T17:30:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/"
+                href="http://localhost:1313/ar/blog/the-best-4-free-apps-for-your-phone-2025/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/"
+                href="http://localhost:1313/en/blog/the-best-4-free-apps-for-your-phone-2025/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</loc>
+    <loc>http://localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</loc>
     <lastmod>2025-06-13T17:28:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/"
+                href="http://localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/"
+                href="http://localhost:1313/en/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/how-to/</loc>
+    <loc>http://localhost:1313/en/tags/how-to/</loc>
     <lastmod>2025-06-13T17:28:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/how-to/"
+                href="http://localhost:1313/ar/tags/how-to/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/how-to/"
+                href="http://localhost:1313/en/tags/how-to/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/tweak/</loc>
+    <loc>http://localhost:1313/en/tags/tweak/</loc>
     <lastmod>2025-06-13T17:28:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/tweak/"
+                href="http://localhost:1313/ar/tags/tweak/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/tweak/"
+                href="http://localhost:1313/en/tags/tweak/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/windows/</loc>
+    <loc>http://localhost:1313/en/categories/windows/</loc>
     <lastmod>2025-06-13T17:28:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/categories/windows/"
+                href="http://localhost:1313/ar/categories/windows/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/windows/"
+                href="http://localhost:1313/en/categories/windows/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</loc>
+    <loc>http://localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/</loc>
     <lastmod>2025-06-03T10:41:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/this-file-manager-will-replace-my-windows-file-explorer/"
+                href="http://localhost:1313/ar/blog/this-file-manager-will-replace-my-windows-file-explorer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/"
+                href="http://localhost:1313/en/blog/this-file-manager-will-replace-my-windows-file-explorer/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</loc>
+    <loc>http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/</loc>
     <lastmod>2025-05-28T14:46:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/top-25-network-ports-you-must-know-for-interviews/"
+                href="http://localhost:1313/ar/blog/top-25-network-ports-you-must-know-for-interviews/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/"
+                href="http://localhost:1313/en/blog/top-25-network-ports-you-must-know-for-interviews/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/ai/</loc>
+    <loc>http://localhost:1313/en/categories/ai/</loc>
     <lastmod>2025-05-28T14:13:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/categories/ai/"
+                href="http://localhost:1313/ar/categories/ai/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/ai/"
+                href="http://localhost:1313/en/categories/ai/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</loc>
+    <loc>http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/</loc>
     <lastmod>2025-05-28T14:13:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/google-launches-ai-mode-to-redefine-online-search/"
+                href="http://localhost:1313/ar/blog/google-launches-ai-mode-to-redefine-online-search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/"
+                href="http://localhost:1313/en/blog/google-launches-ai-mode-to-redefine-online-search/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/news/</loc>
+    <loc>http://localhost:1313/en/tags/news/</loc>
     <lastmod>2025-05-28T14:13:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/news/"
+                href="http://localhost:1313/ar/tags/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/news/"
+                href="http://localhost:1313/en/tags/news/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</loc>
+    <loc>http://localhost:1313/en/blog/windows-11-wont-let-you-shutdown/</loc>
     <lastmod>2025-05-24T21:37:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/"
+                href="http://localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/windows-11-wont-let-you-shutdown/"
+                href="http://localhost:1313/en/blog/windows-11-wont-let-you-shutdown/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</loc>
+    <loc>http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/</loc>
     <lastmod>2025-05-24T16:10:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/"
+                href="http://localhost:1313/ar/blog/9more-open-source-android-apps-you-should-be-using/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/"
+                href="http://localhost:1313/en/blog/9more-open-source-android-apps-you-should-be-using/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/foss/</loc>
+    <loc>http://localhost:1313/en/tags/foss/</loc>
     <lastmod>2025-05-24T16:10:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/tags/foss/"
+                href="http://localhost:1313/ar/tags/foss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/foss/"
+                href="http://localhost:1313/en/tags/foss/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</loc>
+    <loc>http://localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/</loc>
     <lastmod>2025-05-18T13:48:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/5-free-windows-apps-i-install-on-every-new-computer/"
+                href="http://localhost:1313/ar/blog/5-free-windows-apps-i-install-on-every-new-computer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/"
+                href="http://localhost:1313/en/blog/5-free-windows-apps-i-install-on-every-new-computer/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</loc>
+    <loc>http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/</loc>
     <lastmod>2025-05-18T13:48:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/"
+                href="http://localhost:1313/ar/blog/should-i-switch-to-the-vertical-app-drawer-and-why/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/"
+                href="http://localhost:1313/en/blog/should-i-switch-to-the-vertical-app-drawer-and-why/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/authors/</loc>
+    <loc>http://localhost:1313/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/authors/"
+                href="http://localhost:1313/ar/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/"
+                href="http://localhost:1313/en/authors/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/contact/</loc>
+    <loc>http://localhost:1313/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/contact/"
+                href="http://localhost:1313/ar/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/contact/"
+                href="http://localhost:1313/en/contact/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/elements/</loc>
+    <loc>http://localhost:1313/en/elements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/elements/"
+                href="http://localhost:1313/ar/elements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/elements/"
+                href="http://localhost:1313/en/elements/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/authors/kenan-melhem/</loc>
+    <loc>http://localhost:1313/en/authors/kenan-melhem/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/authors/kenan-melhem/"
+                href="http://localhost:1313/ar/authors/kenan-melhem/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/kenan-melhem/"
+                href="http://localhost:1313/en/authors/kenan-melhem/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/pages/</loc>
+    <loc>http://localhost:1313/en/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/pages/"
+                href="http://localhost:1313/ar/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/pages/"
+                href="http://localhost:1313/en/pages/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/privacy-policy/</loc>
+    <loc>http://localhost:1313/en/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/privacy-policy/"
+                href="http://localhost:1313/ar/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/privacy-policy/"
+                href="http://localhost:1313/en/privacy-policy/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/sections/</loc>
+    <loc>http://localhost:1313/en/sections/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/sections/"
+                href="http://localhost:1313/ar/sections/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/sections/"
+                href="http://localhost:1313/en/sections/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/about/</loc>
+    <loc>http://localhost:1313/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/about/"
+                href="http://localhost:1313/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/about/"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/authors/your-name/</loc>
+    <loc>http://localhost:1313/en/authors/your-name/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="//localhost:1313/ar/authors/your-name/"
+                href="http://localhost:1313/ar/authors/your-name/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/authors/your-name/"
+                href="http://localhost:1313/en/authors/your-name/"
                 />
   </url>
 </urlset>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How-To on بيت التقنية</title>
-    <link>//localhost:1313/ar/tags/how-to/</link>
+    <link>http://localhost:1313/ar/tags/how-to/</link>
     <description>Recent content in How-To on بيت التقنية</description>
     <generator>Hugo</generator>
     <language>ar-sa</language>
     <lastBuildDate>Fri, 13 Jun 2025 17:28:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/ar/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ar/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>كيفية تعطيل بحث الويب في ويندوز وتسريع جهازك</title>
-      <link>//localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</link>
+      <link>http://localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</link>
       <pubDate>Fri, 13 Jun 2025 17:28:00 +0300</pubDate>
-      <guid>//localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</guid>
+      <guid>http://localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</guid>
       <description>&lt;h2 id=&#34;هل-سئمت-من-ظهور-نتائج-bing-في-كل-مرة-تحاول-فيها-البحث-عن-تطبيق-أو-ملف-محلي-لست-وحدك&#34;&gt;هل سئمت من ظهور نتائج Bing في كل مرة تحاول فيها البحث عن تطبيق أو ملف محلي؟ لست وحدك!&lt;/h2&gt;&#xA;&lt;p&gt;واحدة من أكثر الميزات المزعجة في &lt;strong&gt;Windows 11&lt;/strong&gt; و&lt;strong&gt;Windows 10&lt;/strong&gt; هي عرض نتائج الويب عند استخدام مربع البحث. بدلاً من إظهار التطبيقات أو الملفات الموجودة على جهازك، يقوم ويندوز بعرض نتائج من Bing، مما يبطئ الأداء ويشوش النتائج.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ويندوز 11 لا يسمح لك بإيقاف تشغيل جهازك – إليك كيفية إصلاح المشكلة</title>
-      <link>//localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/</link>
+      <link>http://localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/</link>
       <pubDate>Sat, 24 May 2025 21:37:00 +0300</pubDate>
-      <guid>//localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/</guid>
+      <guid>http://localhost:1313/ar/blog/windows-11-wont-let-you-shutdown/</guid>
       <description>&lt;p&gt;هل حاولت إيقاف تشغيل أو إعادة تشغيل جهاز الكمبيوتر الخاص بك بنظام &lt;strong&gt;ويندوز 11&lt;/strong&gt; ، ثم عدت لتجد أنه لا يزال يعمل ويعرض رسالة خطأ &lt;strong&gt;&amp;ldquo;هذا التطبيق يمنعك من إعادة التشغيل.&amp;rdquo;&lt;/strong&gt; ؟ إذا كنت قد واجهت هذا الموقف، فأنت لست وحدك.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -72,7 +72,6 @@
 
 
 
-  <base href="//localhost:1313/en/about/" />
 
 
 
@@ -97,11 +96,11 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/en/about/" />
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/en/about/" />
   
-    <link rel="alternate" hreflang="ar" href="//localhost:1313/ar/about/" />
+    <link rel="alternate" hreflang="ar" href="http://localhost:1313/ar/about/" />
   
-  <link rel="alternate" hreflang="x-default" href="//localhost:1313/en/about/" />
+  <link rel="alternate" hreflang="x-default" href="http://localhost:1313/en/about/" />
 
 
 
@@ -169,8 +168,8 @@
       
       
       
-        <meta property="og:image" content="//localhost:1313/images/fulllogo.png" />
-        <meta name="twitter:image" content="//localhost:1313/images/fulllogo.png" />
+        <meta property="og:image" content="http://localhost:1313/images/fulllogo.png" />
+        <meta name="twitter:image" content="http://localhost:1313/images/fulllogo.png" />
         <meta
           name="twitter:card"
           content="summary" />
@@ -197,7 +196,7 @@
 <meta property="og:title" content="About Us" />
 <meta property="og:description" content="Who We Are" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="//localhost:1313/en/about/" />
+<meta property="og:url" content="http://localhost:1313/en/about/" />
 
 
 <meta name="twitter:title" content="About Us" />
@@ -218,6 +217,22 @@
 
 
 
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-832HC6LB6M"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-832HC6LB6M');
+        }
+      </script>
+
 
 
 
@@ -228,7 +243,7 @@
 
 
 <script>
-  let indexURL = "//localhost:1313/en/searchindex.json";
+  let indexURL = "http://localhost:1313/en/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -701,7 +716,7 @@
             
             
             <li class="lang-option">
-                <a href="//localhost:1313/ar/" class="lang-link">Ar (AR)</a>
+                <a href="http://localhost:1313/ar/" class="lang-link">Ar (AR)</a>
             </li>
             
             
@@ -1260,7 +1275,11 @@
       </p>
     </div>
   </div>
+
+  <script id="dsq-count-scr" src="//techbaytk.disqus.com/count.js" async></script>
 </footer>
+
+
 
 
 
