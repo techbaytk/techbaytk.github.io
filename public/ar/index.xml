@@ -6,8 +6,22 @@
     <description>Recent content on بيت التقنية</description>
     <generator>Hugo</generator>
     <language>ar-sa</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 21:37:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>مرحبا أنا يوسف</title>
+      <link>http://localhost:1313/ar/blog/yousef/</link>
+      <pubDate>Fri, 05 Sep 2025 21:37:00 +0300</pubDate>
+      <guid>http://localhost:1313/ar/blog/yousef/</guid>
+      <description>&lt;p&gt;HI I am Yousef Melhem&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comment Policy</title>
+      <link>http://localhost:1313/ar/comment-policy/</link>
+      <pubDate>Fri, 05 Sep 2025 20:23:38 +0300</pubDate>
+      <guid>http://localhost:1313/ar/comment-policy/</guid>
+      <description>&lt;p&gt;تاريخ السريان: 5/9/2025&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ما هو الخادم الوكيل, وهل يجب عليك استخدامه؟ (Proxy Server)</title>
       <link>http://localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/</link>
@@ -90,7 +104,7 @@
       <link>http://localhost:1313/ar/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ar/privacy-policy/</guid>
-      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
+      <description>&lt;p&gt;تاريخ السريان: 5/9/2025&#xA;آخر تحديث: 5/9/2025&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ready to build your next project with Hugo?</title>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ar/</loc>
-    <lastmod>2025-08-24T00:00:00+03:00</lastmod>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -15,8 +15,63 @@
                 href="http://localhost:1313/ar/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ar/categories/</loc>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-sa"
+                href="http://localhost:1313/ar/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/tags/how-to/</loc>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/how-to/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-sa"
+                href="http://localhost:1313/ar/tags/how-to/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/tags/</loc>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-sa"
+                href="http://localhost:1313/ar/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/categories/windows/</loc>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/windows/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-sa"
+                href="http://localhost:1313/ar/categories/windows/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/blog/yousef/</loc>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ar/blog/</loc>
-    <lastmod>2025-08-24T00:00:00+03:00</lastmod>
+    <lastmod>2025-09-05T21:37:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -28,17 +83,30 @@
                 href="http://localhost:1313/ar/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/categories/</loc>
-    <lastmod>2025-06-23T00:33:00+03:00</lastmod>
+    <loc>http://localhost:1313/ar/comment-policy/</loc>
+    <lastmod>2025-09-05T20:23:38+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/en/comment-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-sa"
-                href="http://localhost:1313/ar/categories/"
+                href="http://localhost:1313/ar/comment-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/pages/</loc>
+    <lastmod>2025-09-05T20:23:38+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/pages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-sa"
+                href="http://localhost:1313/ar/pages/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/categories/knowledge/</loc>
@@ -65,19 +133,6 @@
                 rel="alternate"
                 hreflang="ar-sa"
                 href="http://localhost:1313/ar/tags/network/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
-    <lastmod>2025-06-23T00:33:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-sa"
-                href="http://localhost:1313/ar/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/blog/what-is-a-proxy-server-and-should-you-use-one/</loc>
@@ -145,19 +200,6 @@
                 href="http://localhost:1313/ar/tags/productivty/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/how-to/</loc>
-    <lastmod>2025-06-13T17:28:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/how-to/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-sa"
-                href="http://localhost:1313/ar/tags/how-to/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ar/tags/tweak/</loc>
     <lastmod>2025-06-13T17:28:00+03:00</lastmod>
     <xhtml:link
@@ -169,19 +211,6 @@
                 rel="alternate"
                 hreflang="ar-sa"
                 href="http://localhost:1313/ar/tags/tweak/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/categories/windows/</loc>
-    <lastmod>2025-06-13T17:28:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/windows/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-sa"
-                href="http://localhost:1313/ar/categories/windows/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/blog/how-to-disable-web-search-in-windows-and-speed-up-your-device/</loc>
@@ -349,18 +378,6 @@
                 rel="alternate"
                 hreflang="ar-sa"
                 href="http://localhost:1313/ar/elements/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/pages/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar-sa"
-                href="http://localhost:1313/ar/pages/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/privacy-policy/</loc>

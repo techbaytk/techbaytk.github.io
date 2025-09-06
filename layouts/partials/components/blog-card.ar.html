@@ -1,0 +1,61 @@
+<div class="bg-body dark:bg-darkmode-body" dir="rtl">
+    <div class="relative overflow-hidden rounded-lg blog-card-image-wrapper">
+        {{ $image:= .Params.image }}
+        {{ if $image }}
+        {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full h-auto") }}
+        {{ else }}
+        <img src="/images/post-image.png" alt="Default Post Image" class="w-full h-auto rounded-lg">
+        {{ end }}
+
+        <div class="absolute top-0 right-0 p-4 text-center date-bookmark z-10">
+            <div class="text-xs">{{ .Date.Format "2006" }}</div>
+            <div class="text-3xl font-bold leading-none">{{ .Date.Format "02" }}</div>
+            <div class="text-xs">{{ .Date.Format "Jan" }}</div>
+        </div>
+    </div>
+    <div class="card-content-below-image pt-4">
+        <div class="card-title-container">
+            <div class="bottom-0 left-0 right-0 p-2 text-right z-10">
+                <h4 class="mb-0 text-xl sm:text-2xl font-bold hover:underline underline-offset-8">
+                    <a href="{{ .RelPermalink }}" class="hover:text-primary-light">
+                        {{ .Title }}
+                    </a>
+                </h4>
+            </div>
+
+            {{ $categories:= .Params.categories }}
+            {{ if $categories }}
+            <ul class="mb-4">
+
+                <li class="mr-4 inline-block">
+                    <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/"
+                        class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                        <i class="fa-regular fa-circle-user mr-2"></i> {{ .Params.author }}
+                    </a> 
+                </li>
+                <li class="mr-4 inline-block">
+                    <i class="fa-regular fa-folder mr-1 text-gray-600 dark:text-gray-300"></i>
+                    {{ range $i,$p:= $categories }}
+                    <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+                        class="ms-1 text-gray-600 dark:text-white hover:text-gray-300">{{ . | humanize }}{{ if ne $i
+                        (sub (len $categories) 1) }}
+                        {{ "," }}
+                        {{ end }}
+                    </a>
+                    {{ end }}
+                </li>
+            </ul>
+            {{ end }}
+        </div>
+        <p class="mb-6 text-gray-700 dark:text-gray-400">{{ .Summary | plainify }}</p>
+        <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+            {{ T "read_more" }}
+        </a>
+        <li class="mr-4 inline-block">
+            <a href="{{.RelPermalink}}#disqus_thread"
+                class="text-gray-600 dark:text-white hover:text-gray-300 ">
+                <i class="fa-regular fa-comments mr-2"></i>
+            </a> 
+        </li>
+    </div>
+</div>

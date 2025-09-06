@@ -6,8 +6,15 @@
     <description>Recent content in Tags on بيت التقنية</description>
     <generator>Hugo</generator>
     <language>ar-sa</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:33:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 21:37:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How-To</title>
+      <link>http://localhost:1313/ar/tags/how-to/</link>
+      <pubDate>Fri, 05 Sep 2025 21:37:00 +0300</pubDate>
+      <guid>http://localhost:1313/ar/tags/how-to/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Network</title>
       <link>http://localhost:1313/ar/tags/network/</link>
@@ -27,13 +34,6 @@
       <link>http://localhost:1313/ar/tags/productivty/</link>
       <pubDate>Fri, 13 Jun 2025 17:30:00 +0300</pubDate>
       <guid>http://localhost:1313/ar/tags/productivty/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>How-To</title>
-      <link>http://localhost:1313/ar/tags/how-to/</link>
-      <pubDate>Fri, 13 Jun 2025 17:28:00 +0300</pubDate>
-      <guid>http://localhost:1313/ar/tags/how-to/</guid>
       <description></description>
     </item>
     <item>

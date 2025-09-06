@@ -53,11 +53,11 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "العناصر"
-url = "/elements"
+name = "سياسة الخصوصية"
+url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "اتفاقية الخصوصية"
-url = "/privacy-policy"
+name = "شروط التعليقات"
+url = "/comment-policy"
 weight = 3

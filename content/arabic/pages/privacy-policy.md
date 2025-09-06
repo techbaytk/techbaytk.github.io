@@ -7,27 +7,53 @@ description: "This is meta description"
 # save as draft
 draft: false
 ---
+تاريخ السريان: 5/9/2025
+آخر تحديث: 5/9/2025
 
-#### Responsibility of Contributors
+## ١. المقدمة
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+نحن نحترم خصوصيتك. توضح هذه السياسة كيف نقوم بجمع واستخدام وحماية معلوماتك عند زيارتك لموقع بيت التقنية. باستخدامك للموقع، فإنك توافق على الشروط الموضحة هنا.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+## ٢. المعلومات التي نجمعها
 
-#### Gathering of Personal Information
+قد نقوم بجمع:
+•  المعلومات الشخصية: مثل الاسم، البريد الإلكتروني، أو أي بيانات تقدمها طوعًا (عند الاشتراك في النشرة البريدية أو كتابة تعليق).
+•  المعلومات غير الشخصية: مثل نوع المتصفح، نوع الجهاز، الصفحات التي تزورها، والموقع الجغرافي العام (يتم جمعها عبر أدوات التحليل والكوكيز).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+## ٣. كيفية استخدام المعلومات
 
-#### Protection of Personal- Information
+نستخدم معلوماتك من أجل:
+•  تحسين المحتوى والخدمات.
+•  الرد على تعليقاتك أو استفساراتك.
+•  إرسال النشرات البريدية أو التحديثات (فقط إذا وافقت على ذلك).
+•  مراقبة أداء الموقع ومنع إساءة الاستخدام.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+## ٤. الكوكيز والتتبع
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+نستخدم ملفات تعريف الارتباط (Cookies) وتقنيات مشابهة من أجل:
+•  تذكر تفضيلاتك.
+•  تحليل حركة المرور وسلوك المستخدم.
+يمكنك تعطيل الكوكيز من إعدادات المتصفح، لكن بعض الميزات قد لا تعمل بشكل صحيح.
 
-#### Privacy Policy Changes
+## ٥. خدمات الطرف الثالث
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+قد نستخدم أدوات خارجية موثوقة (مثل Google Analytics أو منصات البريد الإلكتروني) لمعالجة البيانات نيابةً عنا. ولتلك الخدمات سياسات خصوصية خاصة بها.
+
+## ٦. أمن البيانات
+
+نتخذ إجراءات معقولة لحماية معلوماتك من الوصول أو التعديل أو الكشف غير المصرّح به. ومع ذلك، لا توجد وسيلة نقل عبر الإنترنت آمنة بنسبة ١٠٠٪.
+
+## ٧. حقوقك
+
+يحق لك:
+•  طلب نسخة من بياناتك الشخصية.
+•  طلب تعديل أو حذف معلوماتك.
+•  إلغاء الاشتراك من الرسائل التسويقية في أي وقت.
+
+## ٨. التعديلات على السياسة
+
+قد نقوم بتحديث هذه السياسة من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة مع تعديل تاريخ "آخر تحديث".
+
+## ٩. التواصل معنا
+
+لأي استفسارات حول هذه السياسة، يرجى التواصل معنا عبر البريد الإلكتروني: [بريدك الإلكتروني]
