@@ -5,25 +5,31 @@ description: "اسمع رأي بعض الزوار الراضون عن موقعن
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "ليلى عبد الرحمن"
+    designation: "مصممة واجهات ويب"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "مدونة رائعة بكل المقاييس. تجمع بين التصميم الجذاب والمحتوى العميق الذي يلبي احتياجات كل من يعمل في المجال التقني."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "يوسف الكردي"
+    designation: "مطور ويب مستقل"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "أتابع هذه المدونة منذ فترة، وكل مرة أجد فيها أفكاراً جديدة ومفيدة. طريقة عرض المعلومات تجعل التعلم ممتعاً وسلساً."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "سارة الزهراني"
+    designation: "كاتبة محتوى تقني"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "المدونة هذه تقدم محتوى تقني بلغة عربية راقية وسهلة الفهم. أحب كيف يتم تبسيط المفاهيم المعقدة دون فقدان العمق."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+
+  - name: "خالد النعيمي"
+    designation: "خبير تجربة المستخدم"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "من أفضل المدونات التي قرأتها في مجال التقنية. الأسلوب احترافي، والمحتوى غني، والتحديثات مستمرة ومواكبة."
+
+  - name: "ريم الحاج"
+    designation: "مديرة تحرير تقنية"
+    avatar: "/images/avatar-sm.png"
+    content: "مدونة تلهم وتثري المحتوى العربي في المجال الرقمي. أنصح بها كل من يبحث عن مصدر موثوق ومتميز."
 
 # don't create a separate page
 build:
