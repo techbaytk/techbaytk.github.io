@@ -1,9 +1,12 @@
-+++
-date = "2025-09-05T20:23:38+03:00"
-draft = false
-title = 'Comment Policy'
-layout = 'page'
-+++
+---
+title: "سياسة التعليقات"
+# meta title
+meta_title: ""
+# meta description
+description: "This is meta description"
+# save as draft
+draft: false
+---
 
 تاريخ السريان: 5/9/2025
 
